@@ -1,0 +1,4679 @@
+# translation of be.po to Belarusian
+# translation of xmms_be.po to Belarusian
+# translation of xmms.po to Belarusian
+# Copyright (C) 2003,2004 Free Software Foundation, Inc.
+# Smaliakou Zmicer <damaviku@pisem.net>, 2003,2004
+# Smaliakou Zmicier <damaviku@pisem.net>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xmms 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-13 06:13+0000\n"
+"PO-Revision-Date: 2026-11-11 00:00+0000\n"
+"Last-Translator: Smaliakou Zmicier <damaviku@pisem.net>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: Effect/echo_plugin/echo.c:43
+#, c-format
+msgid "Echo Plugin %s"
+msgstr "Пашырэнне \"Рэха\" %s"
+
+#: Effect/echo_plugin/gui.c:8
+msgid ""
+"Echo Plugin\n"
+"By Johan Levin 1999.\n"
+"\n"
+"Surround echo by Carl van Schaik 1999"
+msgstr ""
+"Пашырэнне \"Рэха\".\n"
+"Аўтар Johan Levin 1999.\n"
+"\n"
+"Вакольнае рэха. Аўтар Carl van Schaik 1999."
+
+#: Effect/echo_plugin/gui.c:22
+msgid "About Echo Plugin"
+msgstr "Аб пашырэнні \"рэха\""
+
+#: Effect/echo_plugin/gui.c:23 Effect/echo_plugin/gui.c:135
+#: Effect/stereo_plugin/stereo.c:57 Effect/stereo_plugin/stereo.c:121
+#: Effect/voice/about.c:35 General/joystick/about.c:35
+#: General/joystick/configure.c:272 General/song_change/song_change.c:340
+#: Input/common/httpstream.c:386 Input/flac/configure.c:430
+#: Input/flac/configure.c:457 Input/mikmod/plugin.c:121
+#: Input/mikmod/plugin.c:610 Input/mpg123/configure.c:260
+#: Input/mpg123/fileinfo.c:140 Input/mpg123/fileinfo.c:422
+#: Input/mpg123/mpg123.c:743 Input/tonegen/tonegen.c:55
+#: Input/vorbis/configure.c:200 Input/vorbis/fileinfo.c:210
+#: Input/vorbis/vorbis.c:784 Input/opus/configure.c:204 Input/opus/opus.c:458
+#: Input/mp4/configure.c:135 Input/mp4/mp4.c:910 Output/OSS/about.c:45
+#: Output/OSS/configure.c:239 Output/disk_writer/disk_writer.c:335
+#: Output/alsa/about.c:46 Output/alsa/configure.c:244 Output/sndio/sndio.c:135
+#: Output/sndio/sndio.c:225 Visualization/blur_scope/config.c:96
+#: libxmms/dirbrowser.c:343 xmms/equalizer.c:1367 xmms/equalizer.c:1373
+#: xmms/equalizer.c:1437 xmms/equalizer.c:1446 xmms/equalizer.c:1705
+#: xmms/input.c:427 xmms/main.c:3580 xmms/playlistwin.c:760
+#: xmms/playlistwin.c:871 xmms/playlistwin.c:1465 xmms/playlistwin.c:1518
+#: xmms/prefswin.c:1174 xmms/util.c:538
+msgid "OK"
+msgstr "Добра"
+
+#: Effect/echo_plugin/gui.c:74
+msgid "Configure Echo"
+msgstr "Настроіць Рэха"
+
+#: Effect/echo_plugin/gui.c:87
+msgid "Delay: (ms)"
+msgstr "Затрымка: (у мілісекундах)"
+
+#: Effect/echo_plugin/gui.c:92
+msgid "Feedback: (%)"
+msgstr "Адваротная сувязь (%)"
+
+#: Effect/echo_plugin/gui.c:97
+msgid "Volume: (%)"
+msgstr "Гук: (%)"
+
+#: Effect/echo_plugin/gui.c:120
+msgid "Surround echo"
+msgstr "Вакольнае рэха"
+
+#: Effect/echo_plugin/gui.c:143 Effect/stereo_plugin/stereo.c:130
+#: General/joystick/configure.c:279 General/song_change/song_change.c:346
+#: Input/flac/configure.c:436 Input/flac/fileinfo.c:388
+#: Input/mikmod/plugin.c:617 Input/mpg123/configure.c:266
+#: Input/mpg123/fileinfo.c:707 Input/vorbis/configure.c:206
+#: Input/vorbis/fileinfo.c:710 Input/opus/configure.c:211
+#: Input/mp4/configure.c:142 Output/OSS/configure.c:245
+#: Output/disk_writer/disk_writer.c:342 Output/alsa/configure.c:250
+#: Output/sndio/sndio.c:231 Visualization/blur_scope/config.c:104
+#: libxmms/dirbrowser.c:352 xmms/equalizer.c:1367 xmms/equalizer.c:1373
+#: xmms/equalizer.c:1437 xmms/equalizer.c:1446 xmms/equalizer.c:1709
+#: xmms/main.c:1572 xmms/playlistwin.c:818 xmms/playlistwin.c:1519
+#: xmms/prefswin.c:1178 xmms/util.c:558
+msgid "Cancel"
+msgstr "Адмена"
+
+#: Effect/echo_plugin/gui.c:150 Effect/stereo_plugin/stereo.c:137
+#: General/joystick/configure.c:285 xmms/equalizer.c:1715 xmms/prefswin.c:1182
+msgid "Apply"
+msgstr "Ужыць"
+
+#: Effect/stereo_plugin/stereo.c:27
+msgid ""
+"Extra Stereo Plugin\n"
+"\n"
+"By Johan Levin 1999."
+msgstr ""
+"Пашырэнне Дадатковае Стэрыа\n"
+"\n"
+"Johan Levin 1999."
+
+#: Effect/stereo_plugin/stereo.c:36
+#, c-format
+msgid "Extra Stereo Plugin %s"
+msgstr "Пашырэнне Дадатковае Стэрыа %s"
+
+#: Effect/stereo_plugin/stereo.c:56
+msgid "About Extra Stereo Plugin"
+msgstr "Аб пашырэнні Дадатковае стэрыа"
+
+#: Effect/stereo_plugin/stereo.c:98
+msgid "Configure Extra Stereo"
+msgstr "Настроіць дадатковае стэрыа"
+
+#: Effect/stereo_plugin/stereo.c:100
+msgid "Effect intensity:"
+msgstr "Інтэнсійнасць эфекта:"
+
+#: Effect/voice/about.c:31
+msgid "About Voice Removal Plugin"
+msgstr "Аб пашырэнні Выдаленне голаса"
+
+#: Effect/voice/about.c:32
+msgid ""
+"XMMS Voice Removal Plugin\n"
+"\n"
+"A simple voice removal plugin by Anders Carlsson <andersca@gnu.org>"
+msgstr ""
+"Пашырэнне выдаленне голаса для XMMS\n"
+"\n"
+"Пашырэнне простае выдаленне голаса. Аўтар Anders Carlsson <andersca@gnu.org>"
+
+#: Effect/voice/voice.c:24
+#, c-format
+msgid "Voice removal plugin %s"
+msgstr "Пашырэнне Выдаленне голаса %s"
+
+#: General/joystick/about.c:28
+msgid "About Joystick Driver"
+msgstr "Аб джойсціку"
+
+#: General/joystick/about.c:29
+msgid ""
+"Joystick Control Plugin\n"
+"\n"
+"Created by Tim Ferguson <timf@dgs.monash.edu.au>.\n"
+"http://www.dgs.monash.edu.au/~timf/\n"
+"\n"
+"5+ button support by Justin Wake <justin@globalsoft.com.au>\n"
+"\n"
+"Control XMMS with one or two joysticks.\n"
+msgstr ""
+"Пашырэнне для кіравання джойсцікам\n"
+"\n"
+" Аўтар Tim Ferguson <timf@dgs.monash.edu.au>.\n"
+" http://www.dgs.monash.edu.au/~timf/\n"
+"\n"
+" падтрымка 5 й больш клявішаў дадаў Justin Wake <justin@globalsoft.com.au>\n"
+"\n"
+" Кіруйце XMMS адным ці двума джойсцікамі.\n"
+
+#: General/joystick/configure.c:26
+msgid "Play/Pause"
+msgstr "Граць/Прыпыніць"
+
+#: General/joystick/configure.c:26
+msgid "Stop"
+msgstr "Спыніць"
+
+#: General/joystick/configure.c:26
+msgid "Next Track"
+msgstr "Наступны запіс"
+
+#: General/joystick/configure.c:26
+msgid "Prev Track"
+msgstr "Папярэдні запіс"
+
+#: General/joystick/configure.c:27
+msgid "Fwd 5 tracks"
+msgstr "Наперад на 5 запісаў"
+
+#: General/joystick/configure.c:27
+msgid "Back 5 tracks"
+msgstr "Назад на 5 запісаў"
+
+#: General/joystick/configure.c:27
+msgid "Volume Up"
+msgstr "Грамчэй"
+
+#: General/joystick/configure.c:28
+msgid "Volume Down"
+msgstr "Цішэй"
+
+#: General/joystick/configure.c:28
+msgid "Forward 5s"
+msgstr "На 5 сек наперад"
+
+#: General/joystick/configure.c:28
+msgid "Rewind 5s"
+msgstr "На 5 сек назад"
+
+#: General/joystick/configure.c:28
+msgid "Shuffle"
+msgstr "Адвольна"
+
+#: General/joystick/configure.c:29
+msgid "Repeat"
+msgstr "Цыклічна"
+
+#: General/joystick/configure.c:29
+msgid "Alternate"
+msgstr "Альтэрнатыўны"
+
+#: General/joystick/configure.c:29
+msgid "Nothing"
+msgstr "Нічога"
+
+#: General/joystick/configure.c:94
+msgid "XMMS Joystick Configuration"
+msgstr "Настройка джойсціка XMMS"
+
+#: General/joystick/configure.c:118
+msgid "Devices:"
+msgstr "Прылады:"
+
+#: General/joystick/configure.c:128
+msgid "Joystick 1:"
+msgstr "Джойсцік 1:"
+
+#: General/joystick/configure.c:140
+msgid "Joystick 2:"
+msgstr "Джойсцік 2:"
+
+#: General/joystick/configure.c:152
+msgid "Sensitivity (10-32767):"
+msgstr "Адчувальнасць (10-32767)"
+
+#: General/joystick/configure.c:183
+msgid "Directionals:"
+msgstr "Накірункі:"
+
+#: General/joystick/configure.c:208
+msgid "Directionals (alternate):"
+msgstr "Накірункі (зменліва):"
+
+#: General/joystick/configure.c:233
+msgid "Buttons:"
+msgstr "Клявішы:"
+
+#: General/joystick/configure.c:244
+#, c-format
+msgid "Button %d:"
+msgstr "Клявіша %d:"
+
+#: General/joystick/joy.c:60
+#, c-format
+msgid "Joystick Control %s"
+msgstr "Кіраванне джойсцікам %s"
+
+#: General/joystick/joy.c:159
+msgid "Joystick Control"
+msgstr "Кіраванне джойсцікам"
+
+#: General/joystick/joy.c:220 General/joystick/joy.c:270
+msgid ""
+"\n"
+"Joystick Control: error reading"
+msgstr ""
+"\n"
+"Кіраванне джойсцікам: памылка чытання"
+
+#: General/song_change/song_change.c:48
+#, c-format
+msgid "Song Change %s"
+msgstr "Змена спева %s"
+
+#: General/song_change/song_change.c:134
+msgid "Warning"
+msgstr "Засцярога"
+
+#: General/song_change/song_change.c:145
+msgid ""
+"Filename and song title tags should be inside double quotes (\"). Not doing "
+"so might be a security risk. Continue anyway?"
+msgstr ""
+"Назва файлу і тэгі назвы спеваў павінны быць унутры падвоеных спасылак "
+"(\")Магчыма ня трэба рабіць гэтага, маецца рыск страты бясьпекі. Працягнуць "
+"усё-такі?"
+
+#: General/song_change/song_change.c:158 Input/mpg123/fileinfo.c:499
+msgid "Yes"
+msgstr "Так"
+
+#: General/song_change/song_change.c:168 Input/mpg123/fileinfo.c:498
+msgid "No"
+msgstr "Не"
+
+#: General/song_change/song_change.c:231
+msgid "Song Change Configuration"
+msgstr "Настройка змены спева"
+
+#: General/song_change/song_change.c:238
+msgid "Commands"
+msgstr "Каманды"
+
+#: General/song_change/song_change.c:245
+msgid "Shell-command to run when xmms starts a new song."
+msgstr "Каманда абалонкі, якая выконваецца, калі XMMS пачынае новую песню."
+
+#: General/song_change/song_change.c:254 General/song_change/song_change.c:277
+#: General/song_change/song_change.c:300
+msgid "Command:"
+msgstr "Каманда:"
+
+#: General/song_change/song_change.c:268
+msgid "Shell-command to run toward the end of a song."
+msgstr "Каманда абалонкі, якая выконваецца пад канец песні."
+
+#: General/song_change/song_change.c:290
+msgid "Shell-command to run when xmms reaches the end of the playlist."
+msgstr "Каманда Shell, якая запускаецца, калі xmms перабраў увесь спіс."
+
+#: General/song_change/song_change.c:313
+#, c-format
+msgid ""
+"You can use the following format strings which will be substituted before "
+"calling the command (not all are useful for the end-of-playlist command).\n"
+"\n"
+"%%F: Frequency (in hertz)\n"
+"%%c: Number of channels\n"
+"%%f: filename (full path)\n"
+"%%l: length (in milliseconds)\n"
+"%%n or %%s: Song name\n"
+"%%r: Rate (in bits per second)\n"
+"%%t: Playlist position (%%02d)\n"
+"%%p: Currently playing (1 or 0)"
+msgstr ""
+"Перад выклікам каманды будуць падстаўлены наступныя радкі фармату (не ўсе з "
+"іх карысныя для каманды канца спісу).\n"
+"\n"
+"%%F: Частата (у герцах)\n"
+"%%c: Колькасць каналаў\n"
+"%%f: назва файла (поўны шлях)\n"
+"%%l: працягласць (у мілісекундах)\n"
+"%%n або %%s: Назва песні\n"
+"%%r: Бітрэйт (у бітах за секунду)\n"
+"%%t: Пазіцыя ў спісе (%%02d)\n"
+"%%p: Зараз грае (1 або 0)"
+
+#: Input/common/httpstream.c:171
+msgid "Select the directory where you want to store the streams:"
+msgstr "Выберыце каталог для захавання патокаў:"
+
+#: Input/common/httpstream.c:218 Output/OSS/configure.c:204
+msgid "Buffering:"
+msgstr "Буферызацыя"
+
+#: Input/common/httpstream.c:222
+msgid "Buffer size (kb):"
+msgstr "Памер буферу(КБайт):"
+
+#: Input/common/httpstream.c:228 Output/OSS/configure.c:225
+msgid "Pre-buffer (percent):"
+msgstr "Прэбуферызацыя (%):"
+
+#: Input/common/httpstream.c:233
+msgid "Proxy:"
+msgstr "Проксі:"
+
+#: Input/common/httpstream.c:234
+msgid "Use proxy"
+msgstr "Выкарыстаць проксі"
+
+#: Input/common/httpstream.c:242
+msgid "Host:"
+msgstr "Хост:"
+
+#: Input/common/httpstream.c:244
+msgid "Port:"
+msgstr "Порт"
+
+#: Input/common/httpstream.c:250
+msgid "Use authentication"
+msgstr "Выкарыстаць аўтантыфікацыю"
+
+#: Input/common/httpstream.c:259
+msgid "Username:"
+msgstr "Імя"
+
+#: Input/common/httpstream.c:263
+msgid "Password:"
+msgstr "Пароля"
+
+#: Input/common/httpstream.c:271
+msgid "Save stream to disk:"
+msgstr "Запісываць паток на дыск:"
+
+#: Input/common/httpstream.c:272
+msgid "Save stream to disk"
+msgstr "Запісываць паток на дыск"
+
+#: Input/common/httpstream.c:279 Output/disk_writer/disk_writer.c:300
+msgid "Path:"
+msgstr "Шлях:"
+
+#: Input/common/httpstream.c:281 Output/disk_writer/disk_writer.c:311
+#: xmms/prefswin.c:1097 xmms/prefswin.c:1117
+msgid "Browse"
+msgstr "Прагляд"
+
+#: Input/common/httpstream.c:288
+msgid "SHOUT/Icecast:"
+msgstr "Крык/Icecast:"
+
+#: Input/common/httpstream.c:290
+msgid "Enable SHOUT/Icecast title streaming"
+msgstr "Дазволіць прыём назваў праз КРЫК/Icecast"
+
+#: Input/common/httpstream.c:385
+msgid "Error"
+msgstr "Памылка"
+
+#: Input/common/httpstream.c:658
+#, c-format
+msgid "SECURING CONNECTION TO %s"
+msgstr "УСТАЛЯВАННЕ БЯСПЕЧНАГА ЗЛУЧЭННЯ З %s"
+
+#: Input/common/httpstream.c:664 Input/common/httpstream.c:677
+msgid "Couldn't set up TLS"
+msgstr "Не ўдалося наладзіць TLS"
+
+#: Input/common/httpstream.c:707
+#, c-format
+msgid ""
+"Couldn't make a secure connection to %s\n"
+"%s"
+msgstr ""
+"Не ўдалося ўсталяваць бяспечнае злучэнне з %s\n"
+"%s"
+
+#: Input/common/httpstream.c:708
+msgid "The server closed the connection"
+msgstr "Сервер закрыў злучэнне"
+
+#: Input/common/httpstream.c:721
+#, c-format
+msgid "LOOKING UP %s"
+msgstr "ШУКАЕМ %s"
+
+#: Input/common/httpstream.c:730
+#, c-format
+msgid "Couldn't look up host %s"
+msgstr "Немагчыма знайсці хост! %s"
+
+#: Input/common/httpstream.c:736
+#, c-format
+msgid "CONNECTING TO %s:%d"
+msgstr "ПАДКЛЮЧЭННЕ ДА %s:%d"
+
+#: Input/common/httpstream.c:769 Input/common/httpstream.c:890
+#, c-format
+msgid "Couldn't connect to host %s"
+msgstr "Немагчыма падключыцца да хаста %s"
+
+#: Input/common/httpstream.c:856
+#, c-format
+msgid ""
+"Couldn't connect to host %s\n"
+"Proxy reported: %s"
+msgstr ""
+"Не ўдалося злучыцца з хостам %s\n"
+"Проксі паведаміў: %s"
+
+#: Input/common/httpstream.c:899
+#, c-format
+msgid ""
+"Won't follow a secure stream's redirect to an insecure one:\n"
+"%s"
+msgstr ""
+"Перанакіраванне з бяспечнага патоку на небяспечны не выконваецца:\n"
+"%s"
+
+#: Input/common/httpstream.c:910
+msgid "This XMMS was built without support for https streams"
+msgstr "Гэты XMMS сабраны без падтрымкі патокаў https"
+
+#: Input/common/httpstream.c:992
+msgid "CONNECTED: WAITING FOR REPLY"
+msgstr "ПАДРУБІЛІСЯ: ЧАКАЮ АДКАЗУ"
+
+#: Input/common/httpstream.c:1000
+#, c-format
+msgid ""
+"Couldn't connect to host %s\n"
+"Server reported: %s"
+msgstr ""
+"Немагчыма падключыцца да хаста %s\n"
+"сервак паведаміў: %s"
+
+#: Input/common/httpstream.c:1179
+#, c-format
+msgid "PRE-BUFFERING: %dKB/%dKB"
+msgstr "ПРЭБУФІРЫЗАЦЫЯ : %dKб/%dKб"
+
+#: Input/flac/configure.c:235
+msgid "Flac Configuration"
+msgstr "Налады FLAC"
+
+#: Input/flac/configure.c:247
+msgid "Tag Handling"
+msgstr "Апрацоўка тэгаў"
+
+#: Input/flac/configure.c:256 Input/mpg123/configure.c:234
+#: Input/vorbis/configure.c:122 Input/opus/configure.c:98
+#: Input/mp4/configure.c:77
+msgid "Override generic titles"
+msgstr "Ануляваць агульныя назвы"
+
+#: Input/flac/configure.c:265 Input/vorbis/configure.c:131
+#: Input/opus/configure.c:108 Input/mp4/configure.c:87 xmms/prefswin.c:1137
+msgid "Title format:"
+msgstr "Фармат назвы:"
+
+#: Input/flac/configure.c:276 Input/mpg123/configure.c:253
+#: Input/vorbis/configure.c:142 Input/opus/configure.c:195
+#: Input/mp4/configure.c:128 xmms/prefswin.c:1128 xmms/prefswin.c:1162
+msgid "Title"
+msgstr "Назва"
+
+#: Input/flac/configure.c:285 Input/vorbis/configure.c:191
+msgid "ReplayGain"
+msgstr "Перайгранне"
+
+#: Input/flac/configure.c:293
+msgid "Enable ReplayGain processing"
+msgstr "Уключыць ReplayGain"
+
+#: Input/flac/configure.c:298
+msgid "Album mode"
+msgstr "Рэжым альбома"
+
+#: Input/flac/configure.c:305
+msgid "Preamp:"
+msgstr "Папярэдняе ўзмацненне:"
+
+#: Input/flac/configure.c:312
+msgid "0 dB"
+msgstr "0 dB"
+
+#: Input/flac/configure.c:316
+msgid "6dB hard limiting"
+msgstr "Жорсткае абмежаванне 6 дБ"
+
+#: Input/flac/configure.c:325
+msgid "Resolution"
+msgstr "Разрадасць"
+
+#: Input/flac/configure.c:333
+msgid "Without ReplayGain"
+msgstr "Без ReplayGain"
+
+#: Input/flac/configure.c:341
+msgid "Dither 24bps to 16bps"
+msgstr "Дызерынг з 24 да 16 біт"
+
+#: Input/flac/configure.c:346
+msgid "With ReplayGain"
+msgstr "З ReplayGain"
+
+#: Input/flac/configure.c:354
+msgid "Enable dithering"
+msgstr "Уключыць дызерынг"
+
+#: Input/flac/configure.c:363
+msgid "Noise shaping"
+msgstr "Фармаванне шуму"
+
+#: Input/flac/configure.c:371
+msgid "none"
+msgstr "няма"
+
+#: Input/flac/configure.c:377
+msgid "low"
+msgstr "нізкае"
+
+#: Input/flac/configure.c:383
+msgid "medium"
+msgstr "сярэдняе"
+
+#: Input/flac/configure.c:389
+msgid "high"
+msgstr "высокае"
+
+#: Input/flac/configure.c:395
+msgid "Dither to"
+msgstr "Дызерынг да"
+
+#: Input/flac/configure.c:403
+msgid "16 bps"
+msgstr "16 bps"
+
+#: Input/flac/configure.c:409
+msgid "24 bps"
+msgstr "24 bps"
+
+#: Input/flac/configure.c:417
+msgid "Output"
+msgstr "Вывад"
+
+#: Input/flac/configure.c:421 Input/mpg123/configure.c:220
+#: Input/vorbis/configure.c:111 Input/opus/configure.c:193
+#: Input/mp4/configure.c:126
+msgid "Streaming"
+msgstr "Патокавы"
+
+#: Input/flac/configure.c:452
+msgid "About Flac Plugin"
+msgstr "Пра пашырэнне FLAC"
+
+#: Input/flac/configure.c:453
+msgid ""
+"FLAC Plugin\n"
+"\n"
+"By Josh Coalson, Daisuke Shimamura and others.\n"
+"Decoding by libFLAC from the Xiph.Org Foundation.\n"
+"https://xiph.org/flac/"
+msgstr ""
+"Пашырэнне FLAC\n"
+"\n"
+"Аўтары: Josh Coalson, Daisuke Shimamura і іншыя.\n"
+"Дэкадаванне з дапамогай libFLAC ад Xiph.Org Foundation.\n"
+"https://xiph.org/flac/"
+
+#: Input/flac/fileinfo.c:57 Input/mpg123/genres.c:29 Input/vorbis/fileinfo.c:79
+msgid "Blues"
+msgstr "Блюз"
+
+#: Input/flac/fileinfo.c:57 Input/mpg123/genres.c:29 Input/vorbis/fileinfo.c:79
+msgid "Classic Rock"
+msgstr "Класічны рок"
+
+#: Input/flac/fileinfo.c:57 Input/mpg123/genres.c:29 Input/vorbis/fileinfo.c:79
+msgid "Country"
+msgstr "Кантры"
+
+#: Input/flac/fileinfo.c:57 Input/mpg123/genres.c:29 Input/vorbis/fileinfo.c:79
+msgid "Dance"
+msgstr "Данс"
+
+#: Input/flac/fileinfo.c:58 Input/mpg123/genres.c:30 Input/vorbis/fileinfo.c:80
+msgid "Disco"
+msgstr "Дыска"
+
+#: Input/flac/fileinfo.c:58 Input/mpg123/genres.c:30 Input/vorbis/fileinfo.c:80
+msgid "Funk"
+msgstr "Фанк"
+
+#: Input/flac/fileinfo.c:58 Input/mpg123/genres.c:30 Input/vorbis/fileinfo.c:80
+msgid "Grunge"
+msgstr "Гранж"
+
+#: Input/flac/fileinfo.c:58 Input/mpg123/genres.c:30 Input/vorbis/fileinfo.c:80
+msgid "Hip-Hop"
+msgstr "Хіп-хоп"
+
+#: Input/flac/fileinfo.c:59 Input/mpg123/genres.c:31 Input/vorbis/fileinfo.c:81
+msgid "Jazz"
+msgstr "Джаз"
+
+#: Input/flac/fileinfo.c:59 Input/mpg123/genres.c:31 Input/vorbis/fileinfo.c:81
+msgid "Metal"
+msgstr "Метал"
+
+#: Input/flac/fileinfo.c:59 Input/mpg123/genres.c:31 Input/vorbis/fileinfo.c:81
+msgid "New Age"
+msgstr "Н'юайдж"
+
+#: Input/flac/fileinfo.c:59 Input/mpg123/genres.c:31 Input/vorbis/fileinfo.c:81
+msgid "Oldies"
+msgstr "Рэтро"
+
+#: Input/flac/fileinfo.c:60 Input/mpg123/genres.c:32 Input/vorbis/fileinfo.c:82
+msgid "Other"
+msgstr "Іншае"
+
+#: Input/flac/fileinfo.c:60 Input/mpg123/genres.c:32 Input/vorbis/fileinfo.c:82
+msgid "Pop"
+msgstr "Папса"
+
+#: Input/flac/fileinfo.c:60 Input/mpg123/genres.c:32 Input/vorbis/fileinfo.c:82
+msgid "R&B"
+msgstr "R&B"
+
+#: Input/flac/fileinfo.c:60 Input/mpg123/genres.c:32 Input/vorbis/fileinfo.c:82
+msgid "Rap"
+msgstr "Рэп"
+
+#: Input/flac/fileinfo.c:60 Input/mpg123/genres.c:32 Input/vorbis/fileinfo.c:82
+msgid "Reggae"
+msgstr "Рэгі"
+
+#: Input/flac/fileinfo.c:61 Input/mpg123/genres.c:33 Input/vorbis/fileinfo.c:83
+msgid "Rock"
+msgstr "Рок"
+
+#: Input/flac/fileinfo.c:61 Input/mpg123/genres.c:33 Input/vorbis/fileinfo.c:83
+msgid "Techno"
+msgstr "Тэхна"
+
+#: Input/flac/fileinfo.c:61 Input/mpg123/genres.c:33 Input/vorbis/fileinfo.c:83
+msgid "Industrial"
+msgstr "Індастрыал"
+
+#: Input/flac/fileinfo.c:61 Input/mpg123/genres.c:33 Input/vorbis/fileinfo.c:83
+msgid "Alternative"
+msgstr "Альтэрнатыва"
+
+#: Input/flac/fileinfo.c:62 Input/mpg123/genres.c:34 Input/vorbis/fileinfo.c:84
+msgid "Ska"
+msgstr "Ska"
+
+#: Input/flac/fileinfo.c:62 Input/mpg123/genres.c:34 Input/vorbis/fileinfo.c:84
+msgid "Death Metal"
+msgstr "Дэз метал"
+
+#: Input/flac/fileinfo.c:62 Input/mpg123/genres.c:34 Input/vorbis/fileinfo.c:84
+msgid "Pranks"
+msgstr "Пранкс"
+
+#: Input/flac/fileinfo.c:62 Input/mpg123/genres.c:34 Input/vorbis/fileinfo.c:84
+msgid "Soundtrack"
+msgstr "Запіс да фільма"
+
+#: Input/flac/fileinfo.c:63 Input/mpg123/genres.c:35 Input/vorbis/fileinfo.c:85
+msgid "Euro-Techno"
+msgstr "Эўра-тэхна"
+
+#: Input/flac/fileinfo.c:63 Input/mpg123/genres.c:35 Input/vorbis/fileinfo.c:85
+msgid "Ambient"
+msgstr "Пагружэнне"
+
+#: Input/flac/fileinfo.c:63 Input/mpg123/genres.c:35 Input/vorbis/fileinfo.c:85
+msgid "Trip-Hop"
+msgstr "Трып-хоп"
+
+#: Input/flac/fileinfo.c:63 Input/mpg123/genres.c:35 Input/vorbis/fileinfo.c:85
+msgid "Vocal"
+msgstr "Вакал"
+
+#: Input/flac/fileinfo.c:64 Input/mpg123/genres.c:36 Input/vorbis/fileinfo.c:86
+msgid "Jazz+Funk"
+msgstr "Джаз+фанк"
+
+#: Input/flac/fileinfo.c:64 Input/mpg123/genres.c:36 Input/vorbis/fileinfo.c:86
+msgid "Fusion"
+msgstr "Сумесь"
+
+#: Input/flac/fileinfo.c:64 Input/mpg123/genres.c:36 Input/vorbis/fileinfo.c:86
+msgid "Trance"
+msgstr "Транс"
+
+#: Input/flac/fileinfo.c:64 Input/mpg123/genres.c:36 Input/vorbis/fileinfo.c:86
+msgid "Classical"
+msgstr "Клясіка"
+
+#: Input/flac/fileinfo.c:65 Input/mpg123/genres.c:37 Input/vorbis/fileinfo.c:87
+msgid "Instrumental"
+msgstr "Інструментальнае"
+
+#: Input/flac/fileinfo.c:65 Input/mpg123/genres.c:37 Input/vorbis/fileinfo.c:87
+msgid "Acid"
+msgstr "Кіслата"
+
+#: Input/flac/fileinfo.c:65 Input/mpg123/genres.c:37 Input/vorbis/fileinfo.c:87
+msgid "House"
+msgstr "Хаўс"
+
+#: Input/flac/fileinfo.c:65 Input/mpg123/genres.c:37 Input/vorbis/fileinfo.c:87
+msgid "Game"
+msgstr "Гульня"
+
+#: Input/flac/fileinfo.c:66 Input/mpg123/genres.c:38 Input/vorbis/fileinfo.c:88
+msgid "Sound Clip"
+msgstr "Кліп"
+
+#: Input/flac/fileinfo.c:66 Input/mpg123/genres.c:38 Input/vorbis/fileinfo.c:88
+msgid "Gospel"
+msgstr "Казань (пропаведзь)"
+
+#: Input/flac/fileinfo.c:66 Input/mpg123/genres.c:38 Input/vorbis/fileinfo.c:88
+msgid "Noise"
+msgstr "Шум"
+
+#: Input/flac/fileinfo.c:66
+msgid "Alt"
+msgstr "Альт"
+
+#: Input/flac/fileinfo.c:67 Input/mpg123/genres.c:39 Input/vorbis/fileinfo.c:89
+msgid "Bass"
+msgstr "Басы"
+
+#: Input/flac/fileinfo.c:67 Input/mpg123/genres.c:39 Input/vorbis/fileinfo.c:89
+msgid "Soul"
+msgstr "Соўл"
+
+#: Input/flac/fileinfo.c:67 Input/mpg123/genres.c:39 Input/vorbis/fileinfo.c:89
+msgid "Punk"
+msgstr "Панк"
+
+#: Input/flac/fileinfo.c:67 Input/mpg123/genres.c:39 Input/vorbis/fileinfo.c:89
+msgid "Space"
+msgstr "Космас"
+
+#: Input/flac/fileinfo.c:68 Input/mpg123/genres.c:40 Input/vorbis/fileinfo.c:90
+msgid "Meditative"
+msgstr "Мэдытацыя"
+
+#: Input/flac/fileinfo.c:68 Input/mpg123/genres.c:40 Input/vorbis/fileinfo.c:90
+msgid "Instrumental Pop"
+msgstr "Інструментальная папса"
+
+#: Input/flac/fileinfo.c:69 Input/mpg123/genres.c:41 Input/vorbis/fileinfo.c:91
+msgid "Instrumental Rock"
+msgstr "Інструмэнтальны Рок"
+
+#: Input/flac/fileinfo.c:69 Input/mpg123/genres.c:41 Input/vorbis/fileinfo.c:91
+msgid "Ethnic"
+msgstr "Этна"
+
+#: Input/flac/fileinfo.c:69 Input/mpg123/genres.c:41 Input/vorbis/fileinfo.c:91
+msgid "Gothic"
+msgstr "Готыка"
+
+#: Input/flac/fileinfo.c:70 Input/mpg123/genres.c:42 Input/vorbis/fileinfo.c:92
+msgid "Darkwave"
+msgstr "Цёмная хваля"
+
+#: Input/flac/fileinfo.c:70 Input/mpg123/genres.c:42 Input/vorbis/fileinfo.c:92
+msgid "Techno-Industrial"
+msgstr "Тэхна-індустрыял"
+
+#: Input/flac/fileinfo.c:70 Input/mpg123/genres.c:42 Input/vorbis/fileinfo.c:92
+msgid "Electronic"
+msgstr "Электрычны"
+
+#: Input/flac/fileinfo.c:71 Input/mpg123/genres.c:43 Input/vorbis/fileinfo.c:93
+msgid "Pop-Folk"
+msgstr "фольк-поп"
+
+#: Input/flac/fileinfo.c:71 Input/mpg123/genres.c:43 Input/vorbis/fileinfo.c:93
+msgid "Eurodance"
+msgstr "Эўраданс"
+
+#: Input/flac/fileinfo.c:71 Input/mpg123/genres.c:43 Input/vorbis/fileinfo.c:93
+msgid "Dream"
+msgstr "Мрой"
+
+#: Input/flac/fileinfo.c:72 Input/mpg123/genres.c:44 Input/vorbis/fileinfo.c:94
+msgid "Southern Rock"
+msgstr "Паўднёвы Рок"
+
+#: Input/flac/fileinfo.c:72 Input/mpg123/genres.c:44 Input/vorbis/fileinfo.c:94
+msgid "Comedy"
+msgstr "Камедыя"
+
+#: Input/flac/fileinfo.c:72 Input/mpg123/genres.c:44 Input/vorbis/fileinfo.c:94
+msgid "Cult"
+msgstr "Культ"
+
+#: Input/flac/fileinfo.c:73 Input/mpg123/genres.c:45 Input/vorbis/fileinfo.c:95
+msgid "Gangsta Rap"
+msgstr "Чорны Рэп"
+
+#: Input/flac/fileinfo.c:73 Input/mpg123/genres.c:45 Input/vorbis/fileinfo.c:95
+msgid "Top 40"
+msgstr "40 лепшых"
+
+#: Input/flac/fileinfo.c:73 Input/mpg123/genres.c:45 Input/vorbis/fileinfo.c:95
+msgid "Christian Rap"
+msgstr "Царкоўны рэп"
+
+#: Input/flac/fileinfo.c:74 Input/mpg123/genres.c:46 Input/vorbis/fileinfo.c:96
+msgid "Pop/Funk"
+msgstr "Поп/фанк"
+
+#: Input/flac/fileinfo.c:74 Input/mpg123/genres.c:46 Input/vorbis/fileinfo.c:96
+msgid "Jungle"
+msgstr "Джангл"
+
+#: Input/flac/fileinfo.c:74 Input/mpg123/genres.c:46 Input/vorbis/fileinfo.c:96
+msgid "Native American"
+msgstr "Амэрыканская народная"
+
+#: Input/flac/fileinfo.c:75 Input/mpg123/genres.c:47 Input/vorbis/fileinfo.c:97
+msgid "Cabaret"
+msgstr "Кабырэ"
+
+#: Input/flac/fileinfo.c:75 Input/mpg123/genres.c:47 Input/vorbis/fileinfo.c:97
+msgid "New Wave"
+msgstr "Новая хваля"
+
+#: Input/flac/fileinfo.c:75 Input/mpg123/genres.c:47 Input/vorbis/fileinfo.c:97
+msgid "Psychedelic"
+msgstr "Псэхадэлічная"
+
+#: Input/flac/fileinfo.c:75 Input/mpg123/genres.c:47 Input/vorbis/fileinfo.c:97
+msgid "Rave"
+msgstr "Рэйв"
+
+#: Input/flac/fileinfo.c:76 Input/mpg123/genres.c:48 Input/vorbis/fileinfo.c:98
+msgid "Showtunes"
+msgstr "Імправізацыя"
+
+#: Input/flac/fileinfo.c:76 Input/mpg123/genres.c:48 Input/vorbis/fileinfo.c:98
+msgid "Trailer"
+msgstr "Анонс"
+
+#: Input/flac/fileinfo.c:76 Input/mpg123/genres.c:48 Input/vorbis/fileinfo.c:98
+msgid "Lo-Fi"
+msgstr "Lo-Fi"
+
+#: Input/flac/fileinfo.c:76 Input/mpg123/genres.c:48 Input/vorbis/fileinfo.c:98
+msgid "Tribal"
+msgstr "Сямейны"
+
+#: Input/flac/fileinfo.c:77 Input/mpg123/genres.c:49 Input/vorbis/fileinfo.c:99
+msgid "Acid Punk"
+msgstr "Кіслотны Панк"
+
+#: Input/flac/fileinfo.c:77 Input/mpg123/genres.c:49 Input/vorbis/fileinfo.c:99
+msgid "Acid Jazz"
+msgstr "Кіслотны Джаз"
+
+#: Input/flac/fileinfo.c:77 Input/mpg123/genres.c:49 Input/vorbis/fileinfo.c:99
+msgid "Polka"
+msgstr "Полька"
+
+#: Input/flac/fileinfo.c:77 Input/mpg123/genres.c:49 Input/vorbis/fileinfo.c:99
+msgid "Retro"
+msgstr "Рэтра"
+
+#: Input/flac/fileinfo.c:78 Input/mpg123/genres.c:50
+#: Input/vorbis/fileinfo.c:100
+msgid "Musical"
+msgstr "Музычны"
+
+#: Input/flac/fileinfo.c:78 Input/mpg123/genres.c:50
+#: Input/vorbis/fileinfo.c:100
+msgid "Rock & Roll"
+msgstr "Рок-н-Рол "
+
+#: Input/flac/fileinfo.c:78 Input/mpg123/genres.c:50
+#: Input/vorbis/fileinfo.c:100
+msgid "Hard Rock"
+msgstr "Хард Рок"
+
+#: Input/flac/fileinfo.c:78 Input/mpg123/genres.c:50
+#: Input/vorbis/fileinfo.c:100
+msgid "Folk"
+msgstr "Фольк"
+
+#: Input/flac/fileinfo.c:79 Input/mpg123/genres.c:51
+#: Input/vorbis/fileinfo.c:101
+msgid "Folk/Rock"
+msgstr "Фолькрок"
+
+#: Input/flac/fileinfo.c:79 Input/mpg123/genres.c:51
+#: Input/vorbis/fileinfo.c:101
+msgid "National Folk"
+msgstr "Этна фольк"
+
+#: Input/flac/fileinfo.c:79 Input/mpg123/genres.c:51
+#: Input/vorbis/fileinfo.c:101
+msgid "Swing"
+msgstr "Свінг"
+
+#: Input/flac/fileinfo.c:80 Input/mpg123/genres.c:52
+#: Input/vorbis/fileinfo.c:102
+msgid "Fast-Fusion"
+msgstr "Хуткая сумесь"
+
+#: Input/flac/fileinfo.c:80 Input/mpg123/genres.c:52
+#: Input/vorbis/fileinfo.c:102
+msgid "Bebob"
+msgstr "Бібоб"
+
+#: Input/flac/fileinfo.c:80 Input/mpg123/genres.c:52
+#: Input/vorbis/fileinfo.c:102
+msgid "Latin"
+msgstr "Лаціна"
+
+#: Input/flac/fileinfo.c:80 Input/mpg123/genres.c:52
+#: Input/vorbis/fileinfo.c:102
+msgid "Revival"
+msgstr "Адраджэнне"
+
+#: Input/flac/fileinfo.c:81 Input/mpg123/genres.c:53
+#: Input/vorbis/fileinfo.c:103
+msgid "Celtic"
+msgstr "Кельтскае"
+
+#: Input/flac/fileinfo.c:81 Input/mpg123/genres.c:53
+#: Input/vorbis/fileinfo.c:103
+msgid "Bluegrass"
+msgstr "Блакітная трава"
+
+#: Input/flac/fileinfo.c:81 Input/mpg123/genres.c:53
+#: Input/vorbis/fileinfo.c:103
+msgid "Avantgarde"
+msgstr "Авангард"
+
+#: Input/flac/fileinfo.c:82 Input/mpg123/genres.c:54
+#: Input/vorbis/fileinfo.c:104
+msgid "Gothic Rock"
+msgstr "Гатычны рок"
+
+#: Input/flac/fileinfo.c:82 Input/mpg123/genres.c:54
+#: Input/vorbis/fileinfo.c:104
+msgid "Progressive Rock"
+msgstr "Прагрэсіўны Рок"
+
+#: Input/flac/fileinfo.c:83 Input/mpg123/genres.c:55
+#: Input/vorbis/fileinfo.c:105
+msgid "Psychedelic Rock"
+msgstr "Псыхадэлічны рок"
+
+#: Input/flac/fileinfo.c:83 Input/mpg123/genres.c:55
+#: Input/vorbis/fileinfo.c:105
+msgid "Symphonic Rock"
+msgstr "Сымфанічны Рок"
+
+#: Input/flac/fileinfo.c:83 Input/mpg123/genres.c:55
+#: Input/vorbis/fileinfo.c:105
+msgid "Slow Rock"
+msgstr "Марудны Рок"
+
+#: Input/flac/fileinfo.c:84 Input/mpg123/genres.c:56
+#: Input/vorbis/fileinfo.c:106
+msgid "Big Band"
+msgstr "Біг Бэнд"
+
+#: Input/flac/fileinfo.c:84 Input/mpg123/genres.c:56
+#: Input/vorbis/fileinfo.c:106
+msgid "Chorus"
+msgstr "Хоры"
+
+#: Input/flac/fileinfo.c:84 Input/mpg123/genres.c:56
+#: Input/vorbis/fileinfo.c:106
+msgid "Easy Listening"
+msgstr "Лёгкая музыка"
+
+#: Input/flac/fileinfo.c:85 Input/mpg123/genres.c:57
+#: Input/vorbis/fileinfo.c:107
+msgid "Acoustic"
+msgstr "Акустыка"
+
+#: Input/flac/fileinfo.c:85 Input/mpg123/genres.c:57
+#: Input/vorbis/fileinfo.c:107
+msgid "Humour"
+msgstr "Гумар"
+
+#: Input/flac/fileinfo.c:85 Input/mpg123/genres.c:57
+#: Input/vorbis/fileinfo.c:107
+msgid "Speech"
+msgstr "Мова"
+
+#: Input/flac/fileinfo.c:85 Input/mpg123/genres.c:57
+#: Input/vorbis/fileinfo.c:107
+msgid "Chanson"
+msgstr "Шансон"
+
+#: Input/flac/fileinfo.c:86 Input/mpg123/genres.c:58
+#: Input/vorbis/fileinfo.c:108
+msgid "Opera"
+msgstr "Опера"
+
+#: Input/flac/fileinfo.c:86 Input/mpg123/genres.c:58
+#: Input/vorbis/fileinfo.c:108
+msgid "Chamber Music"
+msgstr "Камерная музыка"
+
+#: Input/flac/fileinfo.c:86 Input/mpg123/genres.c:58
+#: Input/vorbis/fileinfo.c:108
+msgid "Sonata"
+msgstr "Саната"
+
+#: Input/flac/fileinfo.c:86 Input/mpg123/genres.c:58
+#: Input/vorbis/fileinfo.c:108
+msgid "Symphony"
+msgstr "Сымфонія"
+
+#: Input/flac/fileinfo.c:87 Input/mpg123/genres.c:59
+#: Input/vorbis/fileinfo.c:109
+msgid "Booty Bass"
+msgstr "Нядбайны бас"
+
+#: Input/flac/fileinfo.c:87 Input/mpg123/genres.c:59
+#: Input/vorbis/fileinfo.c:109
+msgid "Primus"
+msgstr "Прыма"
+
+#: Input/flac/fileinfo.c:87 Input/mpg123/genres.c:59
+#: Input/vorbis/fileinfo.c:109
+msgid "Porn Groove"
+msgstr "Порн-груў"
+
+#: Input/flac/fileinfo.c:88 Input/mpg123/genres.c:60
+#: Input/vorbis/fileinfo.c:110
+msgid "Satire"
+msgstr "Саціра"
+
+#: Input/flac/fileinfo.c:88 Input/mpg123/genres.c:60
+#: Input/vorbis/fileinfo.c:110
+msgid "Slow Jam"
+msgstr "Марудны Джэм"
+
+#: Input/flac/fileinfo.c:88 Input/mpg123/genres.c:60
+#: Input/vorbis/fileinfo.c:110
+msgid "Club"
+msgstr "Клюбнае"
+
+#: Input/flac/fileinfo.c:88 Input/mpg123/genres.c:60
+#: Input/vorbis/fileinfo.c:110
+msgid "Tango"
+msgstr "Танго"
+
+#: Input/flac/fileinfo.c:89 Input/mpg123/genres.c:61
+#: Input/vorbis/fileinfo.c:111
+msgid "Samba"
+msgstr "Самба"
+
+#: Input/flac/fileinfo.c:89 Input/mpg123/genres.c:61
+#: Input/vorbis/fileinfo.c:111
+msgid "Folklore"
+msgstr "Народнае"
+
+#: Input/flac/fileinfo.c:89 Input/mpg123/genres.c:61
+#: Input/vorbis/fileinfo.c:111
+msgid "Ballad"
+msgstr "Бяляда"
+
+#: Input/flac/fileinfo.c:89 Input/mpg123/genres.c:61
+#: Input/vorbis/fileinfo.c:111
+msgid "Power Ballad"
+msgstr "Клёвая баляда"
+
+#: Input/flac/fileinfo.c:90 Input/mpg123/genres.c:62
+#: Input/vorbis/fileinfo.c:112
+msgid "Rhythmic Soul"
+msgstr "Рытмічны соўл"
+
+#: Input/flac/fileinfo.c:90 Input/mpg123/genres.c:62
+#: Input/vorbis/fileinfo.c:112
+msgid "Freestyle"
+msgstr "Свабодны стыль"
+
+#: Input/flac/fileinfo.c:90 Input/mpg123/genres.c:62
+#: Input/vorbis/fileinfo.c:112
+msgid "Duet"
+msgstr "Дуэт"
+
+#: Input/flac/fileinfo.c:91 Input/mpg123/genres.c:63
+#: Input/vorbis/fileinfo.c:113
+msgid "Punk Rock"
+msgstr "ПанкРок"
+
+#: Input/flac/fileinfo.c:91 Input/mpg123/genres.c:63
+#: Input/vorbis/fileinfo.c:113
+msgid "Drum Solo"
+msgstr "Сола бубнаў"
+
+#: Input/flac/fileinfo.c:91 Input/mpg123/genres.c:63
+#: Input/vorbis/fileinfo.c:113
+msgid "A Cappella"
+msgstr "Капэлла"
+
+#: Input/flac/fileinfo.c:92 Input/mpg123/genres.c:64
+#: Input/vorbis/fileinfo.c:114
+msgid "Euro-House"
+msgstr "ЭўраХаўс"
+
+#: Input/flac/fileinfo.c:92 Input/mpg123/genres.c:64
+#: Input/vorbis/fileinfo.c:114
+msgid "Dance Hall"
+msgstr "ДансХол"
+
+#: Input/flac/fileinfo.c:92 Input/mpg123/genres.c:64
+#: Input/vorbis/fileinfo.c:114
+msgid "Goa"
+msgstr "Гоа"
+
+#: Input/flac/fileinfo.c:93 Input/mpg123/genres.c:65
+#: Input/vorbis/fileinfo.c:115
+msgid "Drum & Bass"
+msgstr "Басы ды Бубны"
+
+#: Input/flac/fileinfo.c:93 Input/mpg123/genres.c:65
+#: Input/vorbis/fileinfo.c:115
+msgid "Club-House"
+msgstr "КлюбныХаўс"
+
+#: Input/flac/fileinfo.c:93 Input/mpg123/genres.c:65
+#: Input/vorbis/fileinfo.c:115
+msgid "Hardcore"
+msgstr "ХардКор"
+
+#: Input/flac/fileinfo.c:94 Input/mpg123/genres.c:66
+#: Input/vorbis/fileinfo.c:116
+msgid "Terror"
+msgstr "Тэрор"
+
+#: Input/flac/fileinfo.c:94 Input/mpg123/genres.c:66
+#: Input/vorbis/fileinfo.c:116
+msgid "Indie"
+msgstr "Індыйскае"
+
+#: Input/flac/fileinfo.c:94 Input/mpg123/genres.c:66
+#: Input/vorbis/fileinfo.c:116
+msgid "BritPop"
+msgstr "Брытанская Папсня"
+
+#: Input/flac/fileinfo.c:94 Input/mpg123/genres.c:66
+#: Input/vorbis/fileinfo.c:116
+msgid "Negerpunk"
+msgstr "Чорны Панк"
+
+#: Input/flac/fileinfo.c:95 Input/mpg123/genres.c:67
+#: Input/vorbis/fileinfo.c:117
+msgid "Polsk Punk"
+msgstr "Польскі Панк"
+
+#: Input/flac/fileinfo.c:95 Input/mpg123/genres.c:67
+#: Input/vorbis/fileinfo.c:117
+msgid "Beat"
+msgstr "Біт"
+
+#: Input/flac/fileinfo.c:95 Input/mpg123/genres.c:67
+#: Input/vorbis/fileinfo.c:117
+msgid "Christian Gangsta Rap"
+msgstr "Хрысціянскі Царкоўны Рэп"
+
+#: Input/flac/fileinfo.c:96 Input/mpg123/genres.c:68
+#: Input/vorbis/fileinfo.c:118
+msgid "Heavy Metal"
+msgstr "Хэві Метал"
+
+#: Input/flac/fileinfo.c:96 Input/mpg123/genres.c:68
+#: Input/vorbis/fileinfo.c:118
+msgid "Black Metal"
+msgstr "чорны Метал"
+
+#: Input/flac/fileinfo.c:96 Input/mpg123/genres.c:68
+#: Input/vorbis/fileinfo.c:118
+msgid "Crossover"
+msgstr "Пераходны"
+
+#: Input/flac/fileinfo.c:97 Input/mpg123/genres.c:69
+#: Input/vorbis/fileinfo.c:119
+msgid "Contemporary Christian"
+msgstr "Сучасная царкоўная"
+
+#: Input/flac/fileinfo.c:97 Input/mpg123/genres.c:69
+#: Input/vorbis/fileinfo.c:119
+msgid "Christian Rock"
+msgstr "Царкоўны Рок"
+
+#: Input/flac/fileinfo.c:98 Input/mpg123/genres.c:70
+#: Input/vorbis/fileinfo.c:120
+msgid "Merengue"
+msgstr "Мірэнга"
+
+#: Input/flac/fileinfo.c:98 Input/mpg123/genres.c:70
+#: Input/vorbis/fileinfo.c:120
+msgid "Salsa"
+msgstr "Сальса"
+
+#: Input/flac/fileinfo.c:98 Input/mpg123/genres.c:70
+#: Input/vorbis/fileinfo.c:120
+msgid "Thrash Metal"
+msgstr "Металічны Трэш"
+
+#: Input/flac/fileinfo.c:99 Input/mpg123/genres.c:71
+#: Input/vorbis/fileinfo.c:121
+msgid "Anime"
+msgstr "Анімэ"
+
+#: Input/flac/fileinfo.c:99 Input/mpg123/genres.c:71
+#: Input/vorbis/fileinfo.c:121
+msgid "JPop"
+msgstr "Жпоп"
+
+#: Input/flac/fileinfo.c:99 Input/mpg123/genres.c:71
+#: Input/vorbis/fileinfo.c:121
+msgid "Synthpop"
+msgstr "Электрычная папса"
+
+#: Input/flac/fileinfo.c:209 Input/mpg123/fileinfo.c:459
+#: Input/mpg123/fileinfo.c:527 Input/vorbis/fileinfo.c:847
+#, c-format
+msgid "Samplerate: %d Hz"
+msgstr "Узоравая адзнака: %d Hz"
+
+#: Input/flac/fileinfo.c:210 Input/vorbis/fileinfo.c:848
+#, c-format
+msgid "Channels: %d"
+msgstr "Каналы: %d"
+
+#: Input/flac/fileinfo.c:211
+#, c-format
+msgid "Bits/Sample: %d"
+msgstr "Біт/сэмпл: %d"
+
+#: Input/flac/fileinfo.c:213
+#, c-format
+msgid "Blocksize: %d"
+msgstr "Памер блока: %d"
+
+#: Input/flac/fileinfo.c:215
+#, c-format
+msgid ""
+"Blocksize: variable\n"
+"  min/max: %d/%d"
+msgstr ""
+"Памер блока: зменны\n"
+"  мін/макс: %d/%d"
+
+#: Input/flac/fileinfo.c:218
+#, c-format
+msgid ""
+"Samples: %<PRIu64>\n"
+"Length: %d:%.2d"
+msgstr ""
+"Сэмплаў: %<PRIu64>\n"
+"Працягласць: %d:%.2d"
+
+#: Input/flac/fileinfo.c:224
+#, c-format
+msgid "Filesize: %zd B"
+msgstr "Памер файла: %zd Б"
+
+#: Input/flac/fileinfo.c:226
+#, c-format
+msgid ""
+"Avg. bitrate: %.1f kb/s\n"
+"Compression ratio: %.1f%%"
+msgstr ""
+"Сярэдні бітрэйт: %.1f кб/с\n"
+"Ступень сціску: %.1f%%"
+
+#: Input/flac/fileinfo.c:257
+#, c-format
+msgid "ReplayGain Reference Loudness: %2.1f dB"
+msgstr "Апорная гучнасць ReplayGain: %2.1f дБ"
+
+#: Input/flac/fileinfo.c:259
+#, c-format
+msgid "ReplayGain Track Gain: %+2.2f dB"
+msgstr "Узмацненне трэка ReplayGain: %+2.2f дБ"
+
+#: Input/flac/fileinfo.c:261
+#, c-format
+msgid "ReplayGain Album Gain: %+2.2f dB"
+msgstr "Узмацненне альбома ReplayGain: %+2.2f дБ"
+
+#: Input/flac/fileinfo.c:263
+#, c-format
+msgid "ReplayGain Track Peak: %1.8f"
+msgstr "Пік трэка ReplayGain: %1.8f"
+
+#: Input/flac/fileinfo.c:265
+#, c-format
+msgid "ReplayGain Album Peak: %1.8f"
+msgstr "Пік альбома ReplayGain: %1.8f"
+
+#: Input/flac/fileinfo.c:291 Input/mpg123/fileinfo.c:573
+#: Input/vorbis/fileinfo.c:475 Input/opus/fileinfo.c:179
+#: Input/mp4/fileinfo.c:228 xmms/input.c:577
+msgid "Filename:"
+msgstr "Назва файла"
+
+#: Input/flac/fileinfo.c:303
+msgid "Tag:"
+msgstr "Тэг:"
+
+#: Input/flac/fileinfo.c:310 Input/mpg123/fileinfo.c:595
+#: Input/vorbis/fileinfo.c:497 Input/opus/fileinfo.c:41 Input/mp4/fileinfo.c:42
+msgid "Title:"
+msgstr "Назва:"
+
+#: Input/flac/fileinfo.c:317 Input/mpg123/fileinfo.c:605
+#: Input/vorbis/fileinfo.c:507 Input/opus/fileinfo.c:42 Input/mp4/fileinfo.c:42
+msgid "Artist:"
+msgstr "Артыст:"
+
+#: Input/flac/fileinfo.c:324 Input/mpg123/fileinfo.c:615
+#: Input/vorbis/fileinfo.c:517 Input/opus/fileinfo.c:43 Input/mp4/fileinfo.c:42
+msgid "Album:"
+msgstr "Альбом:"
+
+#: Input/flac/fileinfo.c:331 Input/mpg123/fileinfo.c:625
+#: Input/vorbis/fileinfo.c:527 Input/opus/fileinfo.c:44 Input/mp4/fileinfo.c:43
+msgid "Comment:"
+msgstr "Каментарый:"
+
+#: Input/flac/fileinfo.c:338 Input/vorbis/fileinfo.c:537
+#: Input/opus/fileinfo.c:45 Input/mp4/fileinfo.c:43
+msgid "Date:"
+msgstr "Дата:"
+
+#: Input/flac/fileinfo.c:346 Input/mpg123/fileinfo.c:647
+#: Input/vorbis/fileinfo.c:548 Input/opus/fileinfo.c:46 Input/mp4/fileinfo.c:43
+msgid "Track number:"
+msgstr "Нумар запісу"
+
+#: Input/flac/fileinfo.c:354 Input/mpg123/fileinfo.c:659
+#: Input/vorbis/fileinfo.c:559 Input/opus/fileinfo.c:47 Input/mp4/fileinfo.c:43
+msgid "Genre:"
+msgstr "Жанр:"
+
+#: Input/flac/fileinfo.c:377 Input/mpg123/fileinfo.c:695
+#: Input/vorbis/fileinfo.c:696
+msgid "Save"
+msgstr "Захаваць"
+
+#: Input/flac/fileinfo.c:383 Input/vorbis/fileinfo.c:703
+msgid "Remove Tag"
+msgstr "Выдаліць Тэг"
+
+#: Input/flac/fileinfo.c:393
+msgid "FLAC Info:"
+msgstr "Інфармацыя FLAC:"
+
+#: Input/flac/fileinfo.c:469 Input/mpg123/fileinfo.c:758
+#: Input/vorbis/fileinfo.c:930 Input/opus/fileinfo.c:249
+#: Input/mp4/fileinfo.c:298 xmms/input.c:566
+#, c-format
+msgid "File Info - %s"
+msgstr "інфа аб файле - %s"
+
+#: Input/mikmod/plugin.c:87
+msgid "About mikmod plugin"
+msgstr "Аб пашырэнні mikmod"
+
+#: Input/mikmod/plugin.c:111
+msgid ""
+"Mikmod Plugin\n"
+"http://www.multimania.com/miodrag/mikmod/\n"
+"Ported to xmms by J. Nick Koston"
+msgstr ""
+"Пашырэнне Mikmod\n"
+"http://www.multimania.com/miodrag/mikmod/\n"
+"Спартыраваў дзля xmms: J. Nick Koston"
+
+#: Input/mikmod/plugin.c:180
+#, c-format
+msgid "MikMod Player %s"
+msgstr "Плэер MikMod %s"
+
+#: Input/mikmod/plugin.c:367
+msgid "Couldn't load mod"
+msgstr "Немагчыма загрузіць модуль"
+
+#: Input/mikmod/plugin.c:430
+msgid "MikMod Configuration"
+msgstr "Настройка MikMod"
+
+#: Input/mikmod/plugin.c:454 Input/mpg123/configure.c:121
+msgid "Resolution:"
+msgstr "Дазваленне:"
+
+#: Input/mikmod/plugin.c:465 Input/mpg123/configure.c:128
+msgid "16 bit"
+msgstr "16 біт"
+
+#: Input/mikmod/plugin.c:473 Input/mpg123/configure.c:133
+msgid "8 bit"
+msgstr "8 біт"
+
+#: Input/mikmod/plugin.c:481 Input/mpg123/configure.c:139
+msgid "Channels:"
+msgstr "Каналы:"
+
+#: Input/mikmod/plugin.c:492 Input/mpg123/fileinfo.c:441
+msgid "Stereo"
+msgstr "Стэрыа"
+
+#: Input/mikmod/plugin.c:500 Input/mpg123/configure.c:152
+msgid "Mono"
+msgstr "Мона"
+
+#: Input/mikmod/plugin.c:508
+msgid "Downsample:"
+msgstr "Маштаб:"
+
+#: Input/mikmod/plugin.c:519 Input/mpg123/configure.c:165
+msgid "1:1 (44 kHz)"
+msgstr "1:1 (44 kHz)"
+
+#: Input/mikmod/plugin.c:528 Input/mpg123/configure.c:170
+msgid "1:2 (22 kHz)"
+msgstr "1:2 (22 kHz)"
+
+#: Input/mikmod/plugin.c:536 Input/mpg123/configure.c:175
+msgid "1:4 (11 kHz)"
+msgstr "1:4 (11 kHz)"
+
+#: Input/mikmod/plugin.c:548
+msgid "Look for hidden patterns in modules "
+msgstr "Шукаць схаваныя шаболны ў модулях "
+
+#: Input/mikmod/plugin.c:555
+msgid "Use surround mixing"
+msgstr "Выкарыстаць вакольнае мікшыраванне"
+
+#: Input/mikmod/plugin.c:562
+msgid "Force volume fade at the end of the module"
+msgstr "Паменьшыць гук на прыканцы модуля"
+
+#: Input/mikmod/plugin.c:569
+msgid "Use interpolation"
+msgstr "Выкарыстаць інтарпаляцыю"
+
+#: Input/mikmod/plugin.c:576
+msgid "Always use filename as title"
+msgstr "Заўсёды выкарыстоўваць назву файла як назву"
+
+#: Input/mikmod/plugin.c:583
+msgid "Default panning separation"
+msgstr "Стандартнае падзяленне"
+
+#: Input/mikmod/plugin.c:595
+msgid "Quality"
+msgstr "Якасць"
+
+#: Input/mikmod/plugin.c:600 Input/mpg123/configure.c:182 xmms/equalizer.c:1657
+#: xmms/equalizer.c:1693 xmms/prefswin.c:958 xmms/prefswin.c:1080
+msgid "Options"
+msgstr "Опцыі"
+
+#: Input/mpg123/configure.c:104
+msgid "MPG123 Configuration"
+msgstr "Настройка MPG123"
+
+#: Input/mpg123/configure.c:146
+msgid "Stereo (if available)"
+msgstr "Стэрыа (калі ёсць)"
+
+#: Input/mpg123/configure.c:158
+msgid "Down sample:"
+msgstr "Чыстата:"
+
+#: Input/mpg123/configure.c:190
+msgid "Content"
+msgstr "Змест"
+
+#: Input/mpg123/configure.c:194
+msgid "Extension"
+msgstr "Пашырэнне"
+
+#: Input/mpg123/configure.c:198
+msgid "Extension and content"
+msgstr "Пашырэнне й змест"
+
+#: Input/mpg123/configure.c:218
+msgid "Decoder"
+msgstr "Дэкодар"
+
+#: Input/mpg123/configure.c:222
+msgid "ID3 Tags:"
+msgstr "ID3 тэгі"
+
+#: Input/mpg123/configure.c:229
+msgid "Disable ID3V2 tags"
+msgstr "Не крыстацца ID3V2 тэгамі"
+
+#: Input/mpg123/configure.c:243
+msgid "ID3 format:"
+msgstr "Фармат ID3:"
+
+#: Input/mpg123/fileinfo.c:139 Input/mpg123/fileinfo.c:420
+msgid "File Info"
+msgstr "Інфо па файлу"
+
+#: Input/mpg123/fileinfo.c:155 Input/mpg123/fileinfo.c:313
+#: Input/mpg123/fileinfo.c:364
+#, c-format
+msgid ""
+"%s\n"
+"Unable to open file: %s"
+msgstr ""
+"%s\n"
+"Немагчыма адчыніць файл: %s"
+
+#: Input/mpg123/fileinfo.c:158 Input/mpg123/fileinfo.c:307
+#, c-format
+msgid ""
+"%s\n"
+"Unable to write to file: %s"
+msgstr ""
+"%s\n"
+"Немагчыма запісаць у файл: %s"
+
+#: Input/mpg123/fileinfo.c:161
+msgid "The file's ID3v2 tag is of a kind that cannot be edited."
+msgstr "ID3v2-тэг файла мае від, які нельга рэдагаваць."
+
+#: Input/mpg123/fileinfo.c:164
+msgid "The file's ID3v2 tag is cut short."
+msgstr "ID3v2-тэг файла абрэзаны."
+
+#: Input/mpg123/fileinfo.c:167
+msgid "The file changed while its tag was being edited."
+msgstr "Файл змяніўся, пакуль рэдагаваўся яго тэг."
+
+#: Input/mpg123/fileinfo.c:231 Input/mpg123/fileinfo.c:253
+#: Input/mpg123/fileinfo.c:308 Input/mpg123/fileinfo.c:314
+msgid "Couldn't write tag!"
+msgstr "Немагчыма запісаць тэг!"
+
+#: Input/mpg123/fileinfo.c:365 Input/mpg123/fileinfo.c:376
+#: Input/mpg123/fileinfo.c:408
+msgid "Couldn't remove tag!"
+msgstr "Немагчыма выдаліць тэг!"
+
+#: Input/mpg123/fileinfo.c:374
+#, c-format
+msgid ""
+"%s\n"
+"Unable to truncate file: %s"
+msgstr ""
+"%s\n"
+"Немагчыма выключыць файл: %s"
+
+#: Input/mpg123/fileinfo.c:421
+msgid "No tag to remove!"
+msgstr "Няма чаго выдаляць!"
+
+#: Input/mpg123/fileinfo.c:441
+msgid "Joint stereo"
+msgstr "Аб'яднанае стэрыа"
+
+#: Input/mpg123/fileinfo.c:442
+msgid "Dual channel"
+msgstr "Двайны канал"
+
+#: Input/mpg123/fileinfo.c:442
+msgid "Single channel"
+msgstr "Адзіночны канал"
+
+#: Input/mpg123/fileinfo.c:458 Input/mpg123/fileinfo.c:516
+#, c-format
+msgid "Bitrate: %d kb/s"
+msgstr "Бітрэйт: %d kb/s"
+
+#: Input/mpg123/fileinfo.c:494
+msgid "None"
+msgstr "Нічога"
+
+#: Input/mpg123/fileinfo.c:495
+msgid "50/15 ms"
+msgstr "50/15 мс"
+
+#: Input/mpg123/fileinfo.c:497
+msgid "CCITT J.17"
+msgstr "CCITT J.17"
+
+#: Input/mpg123/fileinfo.c:524
+#, c-format
+msgid ""
+"Bitrate: Variable,\n"
+"avg. bitrate: %d kb/s"
+msgstr ""
+"Бітрэйт: пераменны,\n"
+"сярэдняе: %d kb/s"
+
+#: Input/mpg123/fileinfo.c:528
+#, c-format
+msgid ""
+"%s\n"
+"Error protection: %s\n"
+"Copyright: %s\n"
+"Original: %s\n"
+"Emphasis: %s"
+msgstr ""
+"%s\n"
+"Ахова ад памылак: %s\n"
+"Копірайт: %s\n"
+"Арыгінальны: %s\n"
+"Выразны: %s"
+
+#: Input/mpg123/fileinfo.c:536
+#, c-format
+msgid ""
+"%d frames\n"
+"Filesize: %lu B"
+msgstr ""
+"%d кадраў\n"
+"Памер: %lu байт"
+
+#: Input/mpg123/fileinfo.c:587
+msgid "ID3 Tag:"
+msgstr "ID3 тэг"
+
+#: Input/mpg123/fileinfo.c:635
+msgid "Year:"
+msgstr "Год:"
+
+#: Input/mpg123/fileinfo.c:701
+msgid "Remove ID3"
+msgstr "Выдаліць ID3"
+
+#: Input/mpg123/fileinfo.c:713
+msgid "MPEG Info:"
+msgstr "MPEG інфа"
+
+#: Input/mpg123/genres.c:38 Input/vorbis/fileinfo.c:88
+msgid "AlternRock"
+msgstr "Альтэрн Рок"
+
+#: Input/mpg123/mpg123.c:740
+msgid "About MPEG Layer 1/2/3 plugin"
+msgstr "Аб пашырэнні \"MPEG лэйер 1/2/3\""
+
+#: Input/mpg123/mpg123.c:741
+msgid ""
+"Decoding by libmpg123 <https://mpg123.org/>\n"
+"Plugin by The XMMS team"
+msgstr ""
+"Дэкадаванне з дапамогай libmpg123 <https://mpg123.org/>\n"
+"Пашырэнне зроблены камандай XMMS"
+
+#: Input/mpg123/mpg123.c:776
+#, c-format
+msgid "MPEG Layer 1/2/3 Player %s"
+msgstr "MPEG лэйер 1/2/3 плэер %s"
+
+#: Input/tonegen/tonegen.c:49
+msgid "About Tone Generator"
+msgstr "Аб тонагенератары"
+
+#: Input/tonegen/tonegen.c:51
+msgid ""
+"Sinus tone generator by Haavard Kvaalen <havardk@xmms.org>\n"
+"Modified by Daniel J. Peng <danielpeng@bigfoot.com>\n"
+"\n"
+"To use it, add a URL: tone://frequency1;frequency2;frequency3;...\n"
+"e.g. tone://2000;2005 to play a 2000Hz tone and a 2005Hz tone"
+msgstr ""
+"Сінусаэдальны тонагенератар, аўтар: Haavard Kvaalen ,havard@xmms.org.\n"
+"Мадыфікавана Daniel J. Peng <danielpeng@bigfoot.com>\n"
+"Для карыстання дадайце URL: tone//частата1;частата2;частата3;...\n"
+"напрыклад tone://2000;2005 для таго, каб пачуць 2000 Гц ? 2005 Гц"
+
+#: Input/tonegen/tonegen.c:159
+msgid "Tone Generator: "
+msgstr "Тонагенератар: "
+
+#: Input/tonegen/tonegen.c:260
+#, c-format
+msgid "Tone Generator %s"
+msgstr "Тонагенератар %s"
+
+#: Input/vorbis/configure.c:101
+msgid "Ogg Vorbis Configuration"
+msgstr "Настройка Ogg Vorbis"
+
+#: Input/vorbis/configure.c:115
+msgid "Ogg Vorbis Tags:"
+msgstr "Тэгі Ogg Vorbis:"
+
+#: Input/vorbis/configure.c:146 Input/vorbis/fileinfo.c:641
+msgid "ReplayGain Settings:"
+msgstr "Настройкі Перагранне Павілічэння"
+
+#: Input/vorbis/configure.c:153
+msgid "Enable Clipping Prevention"
+msgstr "Дазволіць засцярогу ад абразання"
+
+#: Input/vorbis/configure.c:157
+msgid "Enable ReplayGain"
+msgstr "Дазволіць Перайгранне"
+
+#: Input/vorbis/configure.c:161
+msgid "ReplayGain Type:"
+msgstr "Тып перайграння"
+
+#: Input/vorbis/configure.c:170
+msgid "use Track Gain/Peak"
+msgstr "выкарыстаць запіс прырост/пік"
+
+#: Input/vorbis/configure.c:177
+msgid "use Album Gain/Peak"
+msgstr "выкарыстаць альбом прырост/пік"
+
+#: Input/vorbis/configure.c:187
+msgid "Enable 6dB Boost + Hard Limiting"
+msgstr "Дазволіць 6dB павышэнне + цяжкае лімітаванне"
+
+#: Input/vorbis/fileinfo.c:208
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s"
+msgstr ""
+"ПАМЫЛАЧКА АТРЫМАЛАСЯ: \n"
+"%s"
+
+#: Input/vorbis/fileinfo.c:210
+msgid "Error!"
+msgstr "Памылка!"
+
+#: Input/vorbis/fileinfo.c:237 Input/vorbis/fileinfo.c:292
+#: Input/vorbis/fileinfo.c:311 Input/vorbis/fileinfo.c:320
+msgid "Failed to modify tag"
+msgstr "Немагчыма змяніць тэг"
+
+#: Input/vorbis/fileinfo.c:489
+msgid "Ogg Vorbis Tag:"
+msgstr "Тэг Ogg Vorbis:"
+
+#: Input/vorbis/fileinfo.c:578
+msgid "Description:"
+msgstr "Апісанне:"
+
+#: Input/vorbis/fileinfo.c:588
+msgid "Location:"
+msgstr "Мейсцазнаходжанне:"
+
+#: Input/vorbis/fileinfo.c:598
+msgid "Version:"
+msgstr "Версія:"
+
+#: Input/vorbis/fileinfo.c:609
+msgid "ISRC number:"
+msgstr "Нумар ISRC:"
+
+#: Input/vorbis/fileinfo.c:620
+msgid "Organization:"
+msgstr "Кантора:"
+
+#: Input/vorbis/fileinfo.c:630
+msgid "Copyright:"
+msgstr "Копія:"
+
+#: Input/vorbis/fileinfo.c:648 Input/opus/fileinfo.c:149
+msgid "Track gain:"
+msgstr "Павялічыць запісы:"
+
+#: Input/vorbis/fileinfo.c:658
+msgid "Track peak:"
+msgstr "Пікі трэкаў:"
+
+#: Input/vorbis/fileinfo.c:669 Input/opus/fileinfo.c:151
+msgid "Album gain:"
+msgstr "Павялічыць альбом:"
+
+#: Input/vorbis/fileinfo.c:679
+msgid "Album peak:"
+msgstr "Альбом пік:"
+
+#: Input/vorbis/fileinfo.c:718
+msgid "Ogg Vorbis Info:"
+msgstr "Даведка па Ogg Vorbis:"
+
+#: Input/vorbis/fileinfo.c:845
+#, c-format
+msgid "Nominal bitrate: %d kbps"
+msgstr "Намінальны бітрайт: %d кбіт/с"
+
+#: Input/vorbis/fileinfo.c:846
+#, c-format
+msgid "Average bitrate: %.1f kbps"
+msgstr "Сярэдні бітрэйт: %.1f кбіт/с"
+
+#: Input/vorbis/fileinfo.c:849
+#, c-format
+msgid "Length: %d:%.2d"
+msgstr "Даўжыня: %d:%.2d"
+
+#: Input/vorbis/fileinfo.c:850
+#, c-format
+msgid "File size: %d B"
+msgstr "Памер файла: %d байт"
+
+#: Input/vorbis/fileinfo.c:851
+#, c-format
+msgid "Vendor: %s"
+msgstr "Вытворца: %s"
+
+#: Input/vorbis/vorbis.c:139
+#, c-format
+msgid "Ogg Vorbis Player %s"
+msgstr "Плэер Ogg Vorbis %s"
+
+#: Input/vorbis/vorbis.c:767
+msgid "About Ogg Vorbis Plugin"
+msgstr "Даведка па пашырэнню Ogg Vorbis"
+
+#: Input/vorbis/vorbis.c:772
+msgid ""
+"Ogg Vorbis Plugin by the Xiph.org Foundation\n"
+"\n"
+"Original code by\n"
+"Tony Arcieri <bascule@inferno.tusculum.edu>\n"
+"Contributions from\n"
+"Chris Montgomery <monty@xiph.org>\n"
+"Peter Alm <peter@xmms.org>\n"
+"Michael Smith <msmith@labyrinth.edu.au>\n"
+"Jack Moffitt <jack@icecast.org>\n"
+"Jorn Baayen <jorn@nl.linux.org>\n"
+"Haavard Kvaalen <havardk@xmms.org>\n"
+"Gian-Carlo Pascutto <gcp@sjeng.org>\n"
+"\n"
+"Visit the Xiph.org Foundation at http://www.xiph.org/\n"
+msgstr ""
+"Пашырэнне \"Ogg Vorbis\" ад Xiphophorus\n"
+"\n"
+"Первапачатковы код напісаны\n"
+"Tony Arcieri <bascule@inferno.tusculum.edu>\n"
+"Паляпшэнні й дапаўненні:\n"
+"Chris Montgomery <monty@xiph.org>\n"
+"Peter Alm <peter@xmms.org>\n"
+"Michael Smith <msmith@labyrinth.edu.au>\n"
+"Jack Moffitt <jack@icecast.org>\n"
+"Jorn Baayen <jorn@nl.linux.org>\n"
+"Haavard Kvaalen <havardk@xmms.org>\n"
+"Gian-Carlo Pascutto <gcp@sjeng.org>\n"
+"\n"
+"Заходзце на Xiphophorus: http://www.xiph.org/\n"
+
+#: Input/opus/configure.c:91 Input/opus/fileinfo.c:191
+msgid "Opus Tags:"
+msgstr "Тэгі Opus:"
+
+#: Input/opus/configure.c:129
+msgid "Gain:"
+msgstr "Узмацненне:"
+
+#: Input/opus/configure.c:136
+msgid "The output gain in the file's header is always applied."
+msgstr "Выхаднае ўзмацненне з загалоўка файла ўжываецца заўсёды."
+
+#: Input/opus/configure.c:140
+msgid "No normalization"
+msgstr "Без нармалізацыі"
+
+#: Input/opus/configure.c:144
+msgid "Use R128 track gain"
+msgstr "Выкарыстоўваць узмацненне трэка R128"
+
+#: Input/opus/configure.c:148
+msgid "Use R128 album gain"
+msgstr "Выкарыстоўваць узмацненне альбома R128"
+
+#: Input/opus/configure.c:152
+msgid "Raise by 5 dB to ReplayGain level"
+msgstr "Падняць на 5 дБ да ўзроўню ReplayGain"
+
+#: Input/opus/configure.c:183
+msgid "Opus Configuration"
+msgstr "Налады Opus"
+
+#: Input/opus/configure.c:197
+msgid "Gain"
+msgstr "Узмацненне"
+
+#: Input/opus/fileinfo.c:102 Input/mp4/fileinfo.c:180
+msgid "Stream"
+msgstr "Паток"
+
+#: Input/opus/fileinfo.c:109
+msgid "Not an Opus file"
+msgstr "Гэта не файл Opus"
+
+#: Input/opus/fileinfo.c:132
+#, c-format
+msgid "Channels: %d\n"
+msgstr "Каналаў: %d\n"
+
+#: Input/opus/fileinfo.c:134
+#, c-format
+msgid "Original rate: %u Hz\n"
+msgstr "Першапачатковая частата: %u Гц\n"
+
+#: Input/opus/fileinfo.c:136 Input/mp4/fileinfo.c:84
+#, c-format
+msgid "Average bitrate: %d kb/s\n"
+msgstr "Сярэдні бітрэйт: %d кб/с\n"
+
+#: Input/opus/fileinfo.c:139 Input/mp4/fileinfo.c:86
+#, c-format
+msgid "Length: %d:%02d\n"
+msgstr "Працягласць: %d:%02d\n"
+
+#: Input/opus/fileinfo.c:143 Input/mp4/fileinfo.c:88
+#, c-format
+msgid "File size: %ld B\n"
+msgstr "Памер файла: %ld Б\n"
+
+#: Input/opus/fileinfo.c:145
+#, c-format
+msgid "Chained links: %d\n"
+msgstr "Злучаных частак: %d\n"
+
+#: Input/opus/fileinfo.c:147
+msgid "Output gain:"
+msgstr "Выхаднае ўзмацненне:"
+
+#: Input/opus/fileinfo.c:153 Input/mp4/fileinfo.c:134
+#, c-format
+msgid "Encoder: %s"
+msgstr "Кадавальнік: %s"
+
+#: Input/opus/fileinfo.c:217 Input/mp4/fileinfo.c:266 xmms/about.c:354
+#: xmms/equalizer.c:1500 xmms/equalizer.c:1504 xmms/input.c:604
+#: xmms/main.c:2016 xmms/main.c:2399 xmms/skinwin.c:88 xmms/util.c:829
+msgid "Close"
+msgstr "Зачыніць"
+
+#: Input/opus/fileinfo.c:225
+msgid "Opus Info:"
+msgstr "Інфармацыя Opus:"
+
+#: Input/opus/opus.c:95
+#, c-format
+msgid "Opus Player %s"
+msgstr "Прайгравальнік Opus %s"
+
+#: Input/opus/opus.c:455
+msgid "About Opus Plugin"
+msgstr "Пра пашырэнне Opus"
+
+#: Input/opus/opus.c:456
+msgid ""
+"Opus Plugin\n"
+"\n"
+"Decoding by libopusfile from the Xiph.Org Foundation.\n"
+msgstr ""
+"Пашырэнне Opus\n"
+"\n"
+"Дэкадаванне з дапамогай libopusfile ад Xiph.Org Foundation.\n"
+
+#: Input/mp4/configure.c:70 Input/mp4/fileinfo.c:240
+msgid "MP4 Tags:"
+msgstr "Тэгі MP4:"
+
+#: Input/mp4/configure.c:116
+msgid "MPEG-4 Audio Configuration"
+msgstr "Налады гуку MPEG-4"
+
+#: Input/mp4/fileinfo.c:42
+msgid "Album artist:"
+msgstr "Выканаўца альбома:"
+
+#: Input/mp4/fileinfo.c:112
+#, c-format
+msgid "Apple Lossless, %u-bit\n"
+msgstr "Apple Lossless, %u біт\n"
+
+#: Input/mp4/fileinfo.c:113 Input/mp4/fileinfo.c:125 Input/mp4/fileinfo.c:161
+#, c-format
+msgid "Channels: %u\n"
+msgstr "Каналаў: %u\n"
+
+#: Input/mp4/fileinfo.c:114 Input/mp4/fileinfo.c:162
+#, c-format
+msgid "Sample rate: %u Hz\n"
+msgstr "Частата дыскрэтызацыі: %u Гц\n"
+
+#: Input/mp4/fileinfo.c:126
+#, c-format
+msgid "Sample rate: %lu Hz\n"
+msgstr "Частата дыскрэтызацыі: %lu Гц\n"
+
+#: Input/mp4/fileinfo.c:132
+msgid "Gapless: yes\n"
+msgstr "Без паўз: так\n"
+
+#: Input/mp4/fileinfo.c:156
+msgid "Not an AAC file"
+msgstr "Гэта не файл AAC"
+
+#: Input/mp4/fileinfo.c:160
+msgid "AAC (ADTS)\n"
+msgstr "AAC (ADTS)\n"
+
+#: Input/mp4/fileinfo.c:274
+msgid "Audio Info:"
+msgstr "Інфармацыя пра гук:"
+
+#: Input/mp4/mp4.c:142
+#, c-format
+msgid "MPEG-4 Audio Player %s"
+msgstr "Прайгравальнік гуку MPEG-4 %s"
+
+#: Input/mp4/mp4.c:905
+msgid "About MPEG-4 Audio Plugin"
+msgstr "Пра пашырэнне гуку MPEG-4"
+
+#: Input/mp4/mp4.c:906
+msgid ""
+"MPEG-4 Audio Plugin\n"
+"\n"
+"AAC and Apple Lossless in MP4 files,\n"
+"and AAC in ADTS files and streams.\n"
+"\n"
+"AAC decoding by FAAD2.\n"
+msgstr ""
+"Пашырэнне гуку MPEG-4\n"
+"\n"
+"AAC і Apple Lossless у файлах MP4,\n"
+"а таксама AAC у файлах і патоках ADTS.\n"
+"\n"
+"Дэкадаванне AAC з дапамогай FAAD2.\n"
+
+#: Input/wav/wav.c:76
+#, c-format
+msgid "Wave Player %s"
+msgstr " wave плэер %s"
+
+#: Output/OSS/OSS.c:45
+#, c-format
+msgid "OSS Driver %s"
+msgstr "пашырэнне OSS %s"
+
+#: Output/OSS/about.c:30
+msgid "About OSS Driver"
+msgstr "Даведка па пашырэнню OSS"
+
+#: Output/OSS/about.c:31
+msgid ""
+"XMMS OSS Driver\n"
+"\n"
+" This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n"
+"USA."
+msgstr ""
+"XMMS пашырэнне OSS \n"
+"\n"
+" Гэта прога - халяўнае праграмнае забяспячэнне; вы можыце распаўсюджываць і/"
+"альбо мадыфікаваць яго\n"
+"у адпаведнасці з ліцэнзыяй GNU, якая была надрукавана\n"
+"Арганізацыяй бясплатнага праграмнага забеспячэння, вы можыце карыстацца "
+"версыяй 2 ліцэнзыі альбо\n"
+"(па вашаму жаданню) альбо якой іншай пазнейшай версыяй.\n"
+"\n"
+"Гэта прога распаўсюджываецца з надзеяй, што камусці яна будзе карысна,\n"
+"але БЯЗЬ УСЯЛЯКІХ ГАРАНТЫЙ нават гарантый якія маюцца на ўвазе пры\n"
+"ПРАЦАЗДОЛЬНАСЦІ альбо ПРЫГОДНАСЦІ ДА ЯКОЙСЦІ МЭТЫ. Калі ласка,\n"
+"за падрабязнасцямі глянце на GNU ліцэнзыю.\n"
+"\n"
+"А копію ліцэнзыі вы павінны былі атрымаць\n"
+"разам зь гэтай прогай; калі не, дык напішыце пра гэта па адрасу (дашлем)\n"
+"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
+"02111-1307,\n"
+"USA."
+
+#: Output/OSS/configure.c:105
+#, c-format
+msgid "Default (%s)"
+msgstr "Па ўмаўчанні (%s)"
+
+#: Output/OSS/configure.c:123
+msgid "Default"
+msgstr "Па ўмаўчанні"
+
+#: Output/OSS/configure.c:150
+msgid "OSS Driver configuration"
+msgstr "Настройка прылд OSS"
+
+#: Output/OSS/configure.c:164 Output/alsa/configure.c:199
+msgid "Audio device:"
+msgstr "Аўдыяпрылада:"
+
+#: Output/OSS/configure.c:182
+msgid "Use alternate device:"
+msgstr "Выкарыстаць альтэрнатыўную прыладу"
+
+#: Output/OSS/configure.c:202
+msgid "Devices"
+msgstr "Прылады"
+
+#: Output/OSS/configure.c:216 Output/sndio/sndio.c:203
+msgid "Buffer size (ms):"
+msgstr "Памер буфера (мс):"
+
+#: Output/OSS/configure.c:232
+msgid "Buffering"
+msgstr "Буферызацыя"
+
+#: Output/disk_writer/disk_writer.c:107
+#, c-format
+msgid "Disk Writer Plugin %s"
+msgstr "Пашырэнне запісу на дыск %s"
+
+#: Output/disk_writer/disk_writer.c:241
+msgid "Select the directory where you want to store the output files:"
+msgstr "Выберыце каталёг, у якім будзеце захоўваць файлы вывада:"
+
+#: Output/disk_writer/disk_writer.c:289
+msgid "Disk Writer Configuration"
+msgstr "Настройка запісу на дыск"
+
+#: Output/disk_writer/disk_writer.c:318
+msgid "Don't strip file name extension"
+msgstr "Не адразаць расшырэнне назвы файла"
+
+#: Output/alsa/about.c:30
+msgid "About ALSA Driver"
+msgstr "Даведка па пашырэнню ALSA"
+
+#: Output/alsa/about.c:31
+msgid ""
+"XMMS ALSA Driver\n"
+"\n"
+" This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n"
+"USA.\n"
+"Author: Matthieu Sozeau (mattam@altern.org)"
+msgstr ""
+"Пашырэнне ALSA\n"
+"\n"
+" Гэта прога - халяўнае праграмнае забяспячэнне; вы можыце распаўсюджываць\n"
+"і альбо мадыфікаваць ягоу адпаведнасці з ліцэнзыяй GNU, якая была\n"
+"надрукавана Арганізацыяй бясплатнага праграмнага забеспячэння,\n"
+"вы можыце карыстацца версыяй 2 ліцэнзыі альбо\n"
+"(па вашаму жаданню) альбо якой іншай пазнейшай версыяй.\n"
+"\n"
+"Гэта прога распаўсюджываецца з надзеяй, што камусці яна будзе карысна,\n"
+"але БЯЗЬ УСЯЛЯКІХ ГАРАНТЫЙ нават гарантый якія маюцца на ўвазе пры\n"
+"ПРАЦАЗДОЛЬНАСЦІ альбо ПРЫГОДНАСЦІ ДА ЯКОЙСЦІ МЭТЫ. Калі ласка,\n"
+"за падрабязнасцямі глянце на GNU ліцэнзыю.\n"
+"\n"
+"А копію ліцэнзыі вы павінны былі атрымаць\n"
+"разам зь гэтай прогай; калі не, дык напішыце пра гэта па адрасу (дашлем)\n"
+"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
+"02111-1307,\n"
+"USA.\n"
+"Аўтар: Matthieu Sozeau (mattam@altern.org)"
+
+#: Output/alsa/alsa.c:45
+#, c-format
+msgid "ALSA %s output plugin"
+msgstr "Пашырэнне для вываду ALSA %s"
+
+#: Output/alsa/configure.c:76
+msgid "Unknown soundcard"
+msgstr "Невядомая гукавая карта"
+
+#: Output/alsa/configure.c:131
+#, c-format
+msgid "Default PCM device (%s)"
+msgstr "Пашырэнне PCM па ўмаўчанні (%s)"
+
+#: Output/alsa/configure.c:187
+msgid "ALSA Driver configuration"
+msgstr "Настройка ALSA драйвера"
+
+#: Output/alsa/configure.c:211
+msgid "Device settings"
+msgstr "Настройка прылады"
+
+#: Output/alsa/configure.c:216
+msgid "Soundcard:"
+msgstr "Гукавая карта:"
+
+#: Output/alsa/configure.c:223 Output/alsa/configure.c:232
+msgid "Buffer time (ms):"
+msgstr "Час буфера (мс):"
+
+#: Output/alsa/configure.c:224
+msgid "Period time (ms):"
+msgstr "Перыяд часу (мс):"
+
+#: Output/alsa/configure.c:225
+msgid "XMMS:"
+msgstr "XMMS:"
+
+#: Output/alsa/configure.c:234
+msgid "Changes take effect from the next song."
+msgstr "Змены ўступаюць у сілу з наступнай песні."
+
+#: Output/alsa/configure.c:237
+msgid "Advanced settings"
+msgstr "Палепшаныя настройкі"
+
+#: Output/sndio/sndio.c:60
+#, c-format
+msgid "sndio %s output plugin"
+msgstr "Пашырэнне вываду sndio %s"
+
+#: Output/sndio/sndio.c:123
+msgid "About sndio output"
+msgstr "Пра вывад sndio"
+
+#: Output/sndio/sndio.c:124
+msgid ""
+"XMMS sndio output plugin\n"
+"\n"
+"Copyright (C) 2026 The CGTK authors\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details."
+msgstr ""
+"Пашырэнне вываду sndio для XMMS\n"
+"\n"
+"Copyright (C) 2026 The CGTK authors\n"
+"\n"
+"Гэта прога - халяўнае праграмнае забяспячэнне; вы можыце распаўсюджываць і/"
+"альбо мадыфікаваць яго\n"
+"у адпаведнасці з ліцэнзыяй GNU, якая была надрукавана\n"
+"Арганізацыяй бясплатнага праграмнага забеспячэння, вы можыце карыстацца "
+"версыяй 2 ліцэнзыі альбо\n"
+"(па вашаму жаданню) альбо якой іншай пазнейшай версыяй.\n"
+"\n"
+"Гэта прога распаўсюджываецца з надзеяй, што камусці яна будзе карысна,\n"
+"але БЯЗЬ УСЯЛЯКІХ ГАРАНТЫЙ нават гарантый якія маюцца на ўвазе пры\n"
+"ПРАЦАЗДОЛЬНАСЦІ альбо ПРЫГОДНАСЦІ ДА ЯКОЙСЦІ МЭТЫ. Калі ласка,\n"
+"за падрабязнасцямі глянце на GNU ліцэнзыю."
+
+#: Output/sndio/sndio.c:185
+msgid "sndio output configuration"
+msgstr "Налады вываду sndio"
+
+#: Output/sndio/sndio.c:198
+msgid "Device:"
+msgstr "Прылада:"
+
+#: Output/sndio/sndio.c:209
+msgid ""
+"\"default\" plays through sndiod when it is running,\n"
+"and otherwise straight to the first audio device.\n"
+"AUDIODEVICE, if set, is used instead."
+msgstr ""
+"\"default\" грае праз sndiod, калі ён запушчаны,\n"
+"інакш — напрамую на першую гукавую прыладу.\n"
+"Калі зададзена AUDIODEVICE, выкарыстоўваецца яна."
+
+#: Visualization/blur_scope/blur_scope.c:62
+#, c-format
+msgid "Blur Scope %s"
+msgstr "Размыты сцыяласкоп %s"
+
+#: Visualization/blur_scope/blur_scope.c:148
+msgid "Blur scope"
+msgstr "Размыты сцыяласкоп"
+
+#: Visualization/blur_scope/config.c:63
+msgid "Color Entry"
+msgstr "Увод колера"
+
+#: Visualization/blur_scope/config.c:71
+msgid "Options:"
+msgstr "Опцыі:"
+
+#: Visualization/opengl_spectrum/opengl_spectrum.c:92
+#, c-format
+msgid "OpenGL Spectrum analyzer %s"
+msgstr "OpenGL аналізатар спектру %s"
+
+#: Visualization/opengl_spectrum/opengl_spectrum.c:469
+msgid "OpenGL Spectrum analyzer"
+msgstr "OpenGL аналіатар спектру"
+
+#: Visualization/sanalyzer/spectrum.c:66
+#, c-format
+msgid "Simple spectrum analyzer %s"
+msgstr "Просты аналізатар спектру %s"
+
+#: Visualization/sanalyzer/spectrum.c:86
+msgid "Spectrum analyzer"
+msgstr "Аналізатар спектру"
+
+#: libxmms/rateconf.c:86 libxmms/rateconf.c:116 libxmms/rateconf.c:130
+#, c-format
+msgid "%d Hz"
+msgstr "%d Гц"
+
+#: libxmms/rateconf.c:86
+msgid "Not open"
+msgstr "Не адкрыта"
+
+#: libxmms/rateconf.c:117
+msgid "Each song's rate"
+msgstr "Частата кожнай песні"
+
+#: libxmms/rateconf.c:138
+msgid "Best"
+msgstr "Найлепшае"
+
+#: libxmms/rateconf.c:139
+msgid "Medium"
+msgstr "Сярэдняе"
+
+#: libxmms/rateconf.c:142
+msgid "Sample rate:"
+msgstr "Частата дыскрэтызацыі:"
+
+#: libxmms/rateconf.c:150
+msgid "Ask for:"
+msgstr "Запытаць:"
+
+#: libxmms/rateconf.c:152
+msgid "Conversion:"
+msgstr "Пераўтварэнне:"
+
+#: libxmms/rateconf.c:154
+msgid "Device runs at:"
+msgstr "Прылада працуе на:"
+
+#: libxmms/rateconf.c:162
+msgid ""
+"If the device can't run at the rate asked for, it runs at the nearest one it "
+"can; a device shared with other programs often has a fixed rate. Songs at "
+"any other rate are converted to the rate the device runs at."
+msgstr ""
+"Калі прылада не можа працаваць на запытанай частаце, яна працуе на "
+"найбліжэйшай магчымай; прылада, якую выкарыстоўваюць і іншыя праграмы, часта "
+"мае сталую частату. Песні з любой іншай частатой пераўтвараюцца ў частату, "
+"на якой працуе прылада."
+
+#: libxmms/titlestring.c:284
+msgid "Performer/Artist"
+msgstr "Выканаўца/Артыст"
+
+#: libxmms/titlestring.c:285
+msgid "Album"
+msgstr "Альбом"
+
+#: libxmms/titlestring.c:286
+msgid "Genre"
+msgstr "Жанр"
+
+#: libxmms/titlestring.c:287
+msgid "File name"
+msgstr "Назва файла"
+
+#: libxmms/titlestring.c:288
+msgid "File path"
+msgstr "Шлях да файла"
+
+#: libxmms/titlestring.c:289
+msgid "File extension"
+msgstr "Пашырэнне файла"
+
+#: libxmms/titlestring.c:290
+msgid "Track name"
+msgstr "Назва  запісу"
+
+#: libxmms/titlestring.c:291
+msgid "Track number"
+msgstr "Нумар запісу"
+
+#: libxmms/titlestring.c:292
+msgid "Date"
+msgstr "Дата"
+
+#: libxmms/titlestring.c:293
+msgid "Year"
+msgstr "Год"
+
+#: libxmms/titlestring.c:294
+msgid "Comment"
+msgstr "Каментарый"
+
+#: xmms/about.c:28
+msgid "Main Programming:"
+msgstr "Асноўнае праграмаванне:"
+
+#: xmms/about.c:29
+msgid "Peter Alm"
+msgstr "Peter Alm"
+
+#: xmms/about.c:31
+msgid "Additional Programming:"
+msgstr "Дадатковае праграмаванне:"
+
+#: xmms/about.c:33 xmms/about.c:184
+msgid "Haavard Kvaalen"
+msgstr "Haavard Kvaalen"
+
+#: xmms/about.c:34
+msgid "Derrik Pates"
+msgstr "Derrik Pates"
+
+#: xmms/about.c:36
+msgid "With Additional Help:"
+msgstr "З непасрэднай дапамогай"
+
+#: xmms/about.c:37
+msgid "Tony Arcieri"
+msgstr "Tony Arcieri"
+
+#: xmms/about.c:38
+msgid "Sean Atkinson"
+msgstr "Sean Atkinson"
+
+#: xmms/about.c:39 xmms/about.c:139
+msgid "Jorn Baayen"
+msgstr "Jorn Baayen"
+
+#: xmms/about.c:40
+msgid "James M. Cape"
+msgstr "James M. Cape"
+
+#: xmms/about.c:41
+msgid "Anders Carlsson (effect plugins)"
+msgstr "Anders Carlsson (пашырэнні эфектаў)"
+
+#: xmms/about.c:42
+msgid "Chun-Chung Chen (xfont patch)"
+msgstr "Chun-Chung Chen (выпраўленні да xfont)"
+
+#: xmms/about.c:43
+msgid "Tim Ferguson (joystick plugin)"
+msgstr "Tim Ferguson (пашырэнне джойсціка)"
+
+#: xmms/about.c:44
+msgid "Ben Gertzfield"
+msgstr "Ben Gertzfield"
+
+#: xmms/about.c:45
+msgid "Vesa Halttunen"
+msgstr "Vesa Halttunen"
+
+#: xmms/about.c:46
+msgid "Logan Hanks"
+msgstr "Logan Hanks"
+
+#: xmms/about.c:47
+msgid "Eric L. Hernes (FreeBSD patches)"
+msgstr "Erci L. Hernes (выпраўленні да FreeBSD)"
+
+#: xmms/about.c:48
+msgid "Ville Herva"
+msgstr "Ville Herva"
+
+#: xmms/about.c:49
+msgid "Ian 'Hixie' Hickson"
+msgstr "Ian 'Hixie' Hickson"
+
+#: xmms/about.c:50
+msgid "higway (MMX)"
+msgstr "higway (MMX)"
+
+#: xmms/about.c:51
+msgid "Michael Hipp and others (MPG123 engine)"
+msgstr "Michael Hipp ды іншыя (MPG123 рухавік)"
+
+#: xmms/about.c:53
+msgid "Olle Hallnas (compiling fixes)"
+msgstr "Olle Haellnaes (праблемы кампілявання)"
+
+#: xmms/about.c:55
+msgid "Matti Hamalainen"
+msgstr "Matti Hamalainen"
+
+#: xmms/about.c:56
+msgid "David Jacoby"
+msgstr "David Jacoby"
+
+#: xmms/about.c:57
+msgid "Osamu Kayasono (3DNow!/MMX)"
+msgstr "Osamu Kayasono (3DNow!/MMX)"
+
+#: xmms/about.c:58
+msgid "Lyle B Kempler"
+msgstr "Lyle B Kempler"
+
+#: xmms/about.c:59
+msgid "J. Nick Koston (MikMod plugin)"
+msgstr "J. Nick Koston (пашырэнне MikMod)"
+
+#: xmms/about.c:60
+msgid "Aaron Lehmann"
+msgstr "Aaron Lehmann"
+
+#: xmms/about.c:61
+msgid "Johan Levin (echo + stereo plugin)"
+msgstr "Johan Levin (эха + пашырэнне \"стэрыа\")"
+
+#: xmms/about.c:62
+msgid "Eric Lindvall"
+msgstr "Eric Lindvall"
+
+#: xmms/about.c:63 xmms/about.c:157
+msgid "Colin Marquardt"
+msgstr "Colin Marquardt"
+
+#: xmms/about.c:64
+msgid "Willem Monsuwe"
+msgstr "Willem Monsuwe"
+
+#: xmms/about.c:65
+msgid "Heikki Orsila"
+msgstr "Heikki Orsila"
+
+#: xmms/about.c:66
+msgid "Gian-Carlo Pascutto"
+msgstr "Gian-Carlo Pascutto"
+
+#: xmms/about.c:67
+msgid "John Riddoch (Solaris plugin)"
+msgstr "John Riddoch (пашырэнне пад Solaris)"
+
+#: xmms/about.c:68
+msgid "Josip Rodin"
+msgstr "Josip Rodin"
+
+#: xmms/about.c:69
+msgid "Pablo Saratxaga (i18n)"
+msgstr "Pablo Saratxaga (i18n)"
+
+#: xmms/about.c:70
+msgid "Carl van Schaik (pro logic plugin)"
+msgstr "Carl van Schaik (пашырэнне pro logic)"
+
+#: xmms/about.c:72
+msgid "Joerg Schuler"
+msgstr "Joerg Schuler"
+
+#: xmms/about.c:73
+msgid "Charles Sielski (irman plugin)"
+msgstr "Charles Sielski (пашырэнне інфрачырвонага порту)"
+
+#: xmms/about.c:74 xmms/about.c:185
+msgid "Espen Skoglund"
+msgstr "Espen Skoglund"
+
+#: xmms/about.c:75
+msgid "Matthieu Sozeau (ALSA plugin)"
+msgstr "Matthieu Sozeau (пашырэнне ALSA)"
+
+#: xmms/about.c:76
+msgid "Kimura Takuhiro (3DNow!)"
+msgstr "Kimura Takuhiro (3DNow!)"
+
+#: xmms/about.c:77
+msgid "Zinx Verituse"
+msgstr "Zinx Verituse"
+
+#: xmms/about.c:78
+msgid "Ryan Weaver (RPMs among other things)"
+msgstr "Ryan Weaver (RPM файлы і нешта яшчэ)"
+
+#: xmms/about.c:79
+msgid "Chris Wilson"
+msgstr "Chris Wilson"
+
+#: xmms/about.c:80
+msgid "Dave Yearke"
+msgstr "Dave Yearke"
+
+#: xmms/about.c:81
+msgid "Stephan K. Zitz"
+msgstr "Stephan K. Zitz"
+
+#: xmms/about.c:83
+msgid "Default skin:"
+msgstr "Скура Па ўмаўчанні"
+
+#: xmms/about.c:84
+msgid "Leonard \"Blayde\" Tan"
+msgstr "Leonard \"Blayde\" Tan"
+
+#: xmms/about.c:85
+msgid "Robin Sylvestre (Equalizer and Playlist)"
+msgstr "Robin Sylvestre (эквалайзер & плэйліст)"
+
+#: xmms/about.c:86
+msgid "Thomas Nilsson (New titles and cleanups)"
+msgstr "Thomas Nilsson (Новыя назвы і ачышчэнне)"
+
+#: xmms/about.c:88
+msgid "Homepage and Graphics:"
+msgstr "Хатняя старонка й графіка:"
+
+#: xmms/about.c:89 xmms/about.c:209
+msgid "Thomas Nilsson"
+msgstr "Thomas Nilsson"
+
+#: xmms/about.c:91
+msgid "Support and Docs:"
+msgstr "Падтрымка і докі"
+
+#: xmms/about.c:93 xmms/about.c:208
+msgid "Olle Hallnas"
+msgstr "Olle Hallnas"
+
+#: xmms/about.c:95
+msgid "CGTK port and skins:"
+msgstr "Перанос на CGTK і скуры:"
+
+#: xmms/about.c:101
+msgid "Afrikaans:"
+msgstr "Афрыкана:"
+
+#: xmms/about.c:103
+msgid "Schalk W. Cronje"
+msgstr "Schalk W. Cronje"
+
+#: xmms/about.c:104
+msgid "Albanian:"
+msgstr "Албанская:"
+
+#: xmms/about.c:105
+msgid "Naim Daka"
+msgstr "Naim Daka"
+
+#: xmms/about.c:106
+msgid "Azerbaijani:"
+msgstr "Азербальджанская:"
+
+#: xmms/about.c:108
+msgid "Metin Amiroff"
+msgstr "Metin Amiroff"
+
+#: xmms/about.c:110
+msgid "Vasif Ismailoglu"
+msgstr "Vasif Ismailoglu"
+
+#: xmms/about.c:111
+msgid "Basque:"
+msgstr "Баская:"
+
+#: xmms/about.c:113
+msgid "Inigo Salvador Azurmendi"
+msgstr "Inigo Salvador Azurmendi"
+
+#: xmms/about.c:114
+msgid "Belarusian:"
+msgstr "Беларуская:"
+
+#: xmms/about.c:115
+msgid "Smaliakou Zmicer"
+msgstr "Smaliakou Zmicier"
+
+#: xmms/about.c:116
+msgid "Bosnian:"
+msgstr "Румынская:"
+
+#: xmms/about.c:118
+msgid "Amila Akagic"
+msgstr "Amila Akagic"
+
+#: xmms/about.c:119
+msgid "Grabovica Eldin"
+msgstr "Grabovica Eldin"
+
+#: xmms/about.c:119
+msgid "Vedran Ljubovic"
+msgstr "Vedran Ljubovic"
+
+#: xmms/about.c:120
+msgid "Brazilian Portuguese:"
+msgstr "Бразільская/Партугальская:"
+
+#: xmms/about.c:121
+msgid "Juan Carlos Castro y Castro"
+msgstr "Juan Carlos Castro y Castro"
+
+#: xmms/about.c:122
+msgid "Bulgarian:"
+msgstr "Балгарская:"
+
+#: xmms/about.c:123
+msgid "Boyan Ivanov"
+msgstr "Boyan Ivanov"
+
+#: xmms/about.c:123
+msgid "Yovko D. Lambrev"
+msgstr "Yovko D. Lambrev"
+
+#: xmms/about.c:124
+msgid "Catalan:"
+msgstr "Каталонская:"
+
+#: xmms/about.c:125
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: xmms/about.c:125
+msgid "Quico Llach"
+msgstr "Quico Llach"
+
+#: xmms/about.c:125 xmms/about.c:204
+msgid "Jordi Mallach"
+msgstr "Jordi Mallach"
+
+#: xmms/about.c:126
+msgid "Chinese:"
+msgstr "Кітайская:"
+
+#: xmms/about.c:127
+msgid "Chun-Chung Chen"
+msgstr "Chun-Chung Chen"
+
+#: xmms/about.c:127
+msgid "Jouston Huang"
+msgstr "Jouston Huang"
+
+#: xmms/about.c:127
+msgid "Andrew Lee"
+msgstr "Andrew Lee"
+
+#: xmms/about.c:128
+msgid "Chih-Wei Huang"
+msgstr "Chih-Wei Huang"
+
+#: xmms/about.c:128
+msgid "Shiyu Tang"
+msgstr "Shiyu Tang"
+
+#: xmms/about.c:128
+msgid "Danny Zeng"
+msgstr "Danny Zeng"
+
+#: xmms/about.c:129
+msgid "Croatian:"
+msgstr "Харватская:"
+
+#: xmms/about.c:130
+msgid "Vlatko Kosturjak"
+msgstr "Vlatko Kosturjak"
+
+#: xmms/about.c:130
+msgid "Vladimir Vuksan"
+msgstr "Vladimir Vuksan"
+
+#: xmms/about.c:131
+msgid "Czech:"
+msgstr "Чэская:"
+
+#: xmms/about.c:133
+msgid "Vladimir Marek"
+msgstr "Vladimir Marek"
+
+#: xmms/about.c:134
+msgid "Radek Vybiral"
+msgstr "Radek Vybiral"
+
+#: xmms/about.c:135
+msgid "Danish:"
+msgstr "Дацкая:"
+
+#: xmms/about.c:136
+msgid "Nikolaj Berg Amondsen"
+msgstr "Nikolaj Berg Amondsen"
+
+#: xmms/about.c:136
+msgid "Troels Liebe Bentsen"
+msgstr "Troels Liebe Bentsen"
+
+#: xmms/about.c:137
+msgid "Kenneth Christiansen"
+msgstr "Kenneth Christiansen"
+
+#: xmms/about.c:137
+msgid "Keld Simonsen"
+msgstr "Keld Simonsen"
+
+#: xmms/about.c:138
+msgid "Dutch:"
+msgstr "Галяндская:"
+
+#: xmms/about.c:139
+msgid "Bart Coppens"
+msgstr "Bart Coppens"
+
+#: xmms/about.c:139
+msgid "Wilmer van der Gaast"
+msgstr "Wilmer van der Gaast"
+
+#: xmms/about.c:140
+msgid "Tom Laermans"
+msgstr "Tom Laermans"
+
+#: xmms/about.c:141
+msgid "Esperanto:"
+msgstr "Эсперанто:"
+
+#: xmms/about.c:142
+msgid "D. Dale Gulledge"
+msgstr "D. Dale Gulledge"
+
+#: xmms/about.c:143
+msgid "Estonian:"
+msgstr "Эстонская:"
+
+#: xmms/about.c:144
+msgid "Marek Laane"
+msgstr "Marek Laane"
+
+#: xmms/about.c:145
+msgid "Finnish:"
+msgstr "Фінская:"
+
+#: xmms/about.c:146
+msgid "Thomas Backlund"
+msgstr "Thomas Backlund"
+
+#: xmms/about.c:146
+msgid "Matias Griese"
+msgstr "Matias Griese"
+
+#: xmms/about.c:147
+msgid "French:"
+msgstr "Француская:"
+
+#: xmms/about.c:148
+msgid "Arnaud Boissinot"
+msgstr "Arnaud Boissinot"
+
+#: xmms/about.c:148
+msgid "Eric Fernandez-Bellot"
+msgstr "Eric Fernandez-Bellot"
+
+#: xmms/about.c:149
+msgid "Galician:"
+msgstr "Галіцская:"
+
+#: xmms/about.c:151
+msgid "Alberto Garcia"
+msgstr "Alberto Garcia"
+
+#: xmms/about.c:153
+msgid "David Fernandez Vaamonde"
+msgstr "David Fernandez Vaamonde"
+
+#: xmms/about.c:154
+msgid "Georgian:"
+msgstr "Грузінская:"
+
+#: xmms/about.c:155
+msgid "Aiet Kolkhi"
+msgstr "Aiet Kolkhi"
+
+#: xmms/about.c:156
+msgid "German:"
+msgstr "Нямецкая:"
+
+#: xmms/about.c:157
+msgid "Stefan Siegel"
+msgstr "Stefan Siegel"
+
+#: xmms/about.c:158
+msgid "Greek:"
+msgstr "Грэцкая:"
+
+#: xmms/about.c:159
+msgid "Kyritsis Athanasios"
+msgstr "Kyritsis Athanasios"
+
+#: xmms/about.c:160
+msgid "Hungarian:"
+msgstr "Венгерская:"
+
+#: xmms/about.c:161
+msgid "Arpad Biro"
+msgstr "Arpad Biro"
+
+#: xmms/about.c:162
+msgid "Indonesian:"
+msgstr "Інданэзійская:"
+
+#: xmms/about.c:163
+msgid "Budi Rachmanto"
+msgstr "Budi Rachmanto"
+
+#: xmms/about.c:164
+msgid "Irish:"
+msgstr "Ірландская:"
+
+#: xmms/about.c:165
+msgid "Alastair McKinstry"
+msgstr "Alastair McKinstry"
+
+#: xmms/about.c:166
+msgid "Italian:"
+msgstr "Італьянская:"
+
+#: xmms/about.c:167
+msgid "Paolo Lorenzin"
+msgstr "Paolo Lorenzin"
+
+#: xmms/about.c:167
+msgid "Daniele Pighin"
+msgstr "Daniele Pighin"
+
+#: xmms/about.c:168
+msgid "Japanese:"
+msgstr "Японская:"
+
+#: xmms/about.c:169
+msgid "Hiroshi Takekawa"
+msgstr "Hiroshi Takekawa"
+
+#: xmms/about.c:170
+msgid "Korean:"
+msgstr "Карэйская:"
+
+#: xmms/about.c:171
+msgid "Jaegeum Choe"
+msgstr "Jaegeum Choe"
+
+#: xmms/about.c:171
+msgid "Sang-Jin Hwang"
+msgstr "Sang-Jin Hwang"
+
+#: xmms/about.c:171
+msgid "Byeong-Chan Kim"
+msgstr "Byeong-Chan Kim"
+
+#: xmms/about.c:172
+msgid "Man-Yong Lee"
+msgstr "Man-Yong Lee"
+
+#: xmms/about.c:173
+msgid "Lithuanian:"
+msgstr "Літувінская:"
+
+#: xmms/about.c:174
+msgid "Gediminas Paulauskas"
+msgstr "Gediminas Paulauskas"
+
+#: xmms/about.c:175
+msgid "Latvian:"
+msgstr "Латвійская:"
+
+#: xmms/about.c:177
+msgid "Juris Kudins"
+msgstr "Juris Kudins"
+
+#: xmms/about.c:178
+msgid "Vitauts Stochka"
+msgstr "Vitauts Stochka"
+
+#: xmms/about.c:179
+msgid "Malay:"
+msgstr "Малайская:"
+
+#: xmms/about.c:180
+msgid "Muhammad Najmi Ahmad Zabidi"
+msgstr "Muhammad Najmi Ahmad Zabidi"
+
+#: xmms/about.c:181
+msgid "Norwegian:"
+msgstr "Нарвеская:"
+
+#: xmms/about.c:183
+msgid "Andreas Bergstrom"
+msgstr "Andreas Bergstrom"
+
+#: xmms/about.c:184
+msgid "Terje Bjerkelia"
+msgstr "Terje Bjerkelia"
+
+#: xmms/about.c:184
+msgid "Roy-Magne Mo"
+msgstr "Roy-Magne Mo"
+
+#: xmms/about.c:186
+msgid "Polish:"
+msgstr "Польская:"
+
+#: xmms/about.c:187
+msgid "Grzegorz Kowal"
+msgstr "Grzegorz Kowal"
+
+#: xmms/about.c:188
+msgid "Portuguese:"
+msgstr "Партугальская:"
+
+#: xmms/about.c:189
+msgid "Jorge Costa"
+msgstr "Jorge Costa"
+
+#: xmms/about.c:190
+msgid "Romanian:"
+msgstr "Румынская:"
+
+#: xmms/about.c:191
+msgid "Florin Grad"
+msgstr "Florin Grad"
+
+#: xmms/about.c:193
+msgid "Misu Moldovan"
+msgstr "Misu Moldovan"
+
+#: xmms/about.c:194
+msgid "Russian:"
+msgstr "Расейская:"
+
+#: xmms/about.c:195
+msgid "Valek Filippov"
+msgstr "Valek Filippov"
+
+#: xmms/about.c:195
+msgid "Alexandr P. Kovalenko"
+msgstr "Alexandr P. Kovalenko"
+
+#: xmms/about.c:196
+msgid "Maxim Koshelev"
+msgstr "Maxim Koshelev"
+
+#: xmms/about.c:196
+msgid "Aleksey Smirnov"
+msgstr "Aleksey Smirnov"
+
+#: xmms/about.c:197
+msgid "Serbian:"
+msgstr "Сербская:"
+
+#: xmms/about.c:198
+msgid "Tomislav Jankovic"
+msgstr "Tomislav Jankovic"
+
+#: xmms/about.c:199
+msgid "Slovak:"
+msgstr "Славацкая:"
+
+#: xmms/about.c:200
+msgid "Pavol Cvengros"
+msgstr "Pavol Cvengros"
+
+#: xmms/about.c:201
+msgid "Slovenian:"
+msgstr "Славенская:"
+
+#: xmms/about.c:202
+msgid "Tadej Panjtar"
+msgstr "Tadej Panjtar"
+
+#: xmms/about.c:202
+msgid "Tomas Hornocek"
+msgstr "Tomas Hornocek"
+
+#: xmms/about.c:202
+msgid "Jan Matis"
+msgstr "Jan Matis"
+
+#: xmms/about.c:203
+msgid "Spanish:"
+msgstr "Гішпанская:"
+
+#: xmms/about.c:204
+msgid "Fabian Mandelbaum"
+msgstr "Fabian Mandelbaum"
+
+#: xmms/about.c:206
+msgid "Juan Manuel Garcia Molina"
+msgstr "Juan Manuel Garcia Molina"
+
+#: xmms/about.c:207
+msgid "Swedish:"
+msgstr "Швэцкая:"
+
+#: xmms/about.c:208
+msgid "David Hedbor"
+msgstr "David Hedbor"
+
+#: xmms/about.c:209
+msgid "Christian Rose"
+msgstr "Christian Rose"
+
+#: xmms/about.c:209
+msgid "Fuad Sabanovic"
+msgstr "Fuad Sabanovic"
+
+#: xmms/about.c:210
+msgid "Tajik:"
+msgstr "Таджыцкая:"
+
+#: xmms/about.c:211
+msgid "Roger Kovacs"
+msgstr "Roger Kovacs"
+
+#: xmms/about.c:211
+msgid "Dilshod Marupov"
+msgstr "Dilshod Marupov"
+
+#: xmms/about.c:212
+msgid "Thai:"
+msgstr "Тайская:"
+
+#: xmms/about.c:213
+msgid "Pramote Khuwijitjaru"
+msgstr "Pramote Khuwijitjaru"
+
+#: xmms/about.c:213
+msgid "Supphachoke Suntiwichaya"
+msgstr "Supphachoke Suntiwichaya"
+
+#: xmms/about.c:214
+msgid "Turkish:"
+msgstr "Турэцкая:"
+
+#: xmms/about.c:215
+msgid "Nazmi Savga"
+msgstr "Nazmi Savga"
+
+#: xmms/about.c:217
+msgid "Omer Fadil Usta"
+msgstr "Omer Fadil Usta"
+
+#: xmms/about.c:218
+msgid "Ukrainian:"
+msgstr "Украінская:"
+
+#: xmms/about.c:219
+msgid "Dmytro Koval'ov"
+msgstr "Dmytro Koval'ov"
+
+#: xmms/about.c:220
+msgid "Uzbek:"
+msgstr "Узбецкая:"
+
+#: xmms/about.c:221
+msgid "Mashrab Kuvatov"
+msgstr "Mashrab Kuvatov"
+
+#: xmms/about.c:222
+msgid "Vietnamese:"
+msgstr "У'етнамская:"
+
+#: xmms/about.c:223
+msgid "Trinh Minh Thanh"
+msgstr "Trinh Minh Thanh"
+
+#: xmms/about.c:224
+msgid "Walloon:"
+msgstr "Валонская:"
+
+#: xmms/about.c:225
+msgid "Lucyin Mahin"
+msgstr "Lucyin Mahin"
+
+#: xmms/about.c:225
+msgid "Pablo Saratxaga"
+msgstr "Pablo Saratxaga"
+
+#: xmms/about.c:226
+msgid "Welsh:"
+msgstr "Валійская:"
+
+#: xmms/about.c:227
+msgid "Rhoslyn Prys"
+msgstr "Rhoslyn Prys"
+
+#: xmms/about.c:291
+msgid "About XMMS"
+msgstr "Даведка па XMMS"
+
+#: xmms/about.c:323
+#, c-format
+msgid "XMMS %s - Cross platform multimedia player"
+msgstr "XMMS %s - Шматплатформенны мултымедыйны плэер"
+
+#: xmms/about.c:330
+msgid "Copyright (C) 1997-2004 4Front Technologies and The XMMS Team"
+msgstr "Copyright (C) 1997-2004 4Front Technologies and The XMMS Team"
+
+#: xmms/about.c:343
+msgid "Credits"
+msgstr "Удзельнікі"
+
+#: xmms/about.c:348
+msgid "Translators"
+msgstr "Перакладчыкі"
+
+#: xmms/eq_slider.c:61
+msgid "PREAMP"
+msgstr "Уселяльнік"
+
+#: xmms/eq_slider.c:61
+msgid "60HZ"
+msgstr "60HZ"
+
+#: xmms/eq_slider.c:61
+msgid "170HZ"
+msgstr "170HZ"
+
+#: xmms/eq_slider.c:62
+msgid "310HZ"
+msgstr "310HZ"
+
+#: xmms/eq_slider.c:62
+msgid "600HZ"
+msgstr "600HZ"
+
+#: xmms/eq_slider.c:62
+msgid "1KHZ"
+msgstr "1KHZ"
+
+#: xmms/eq_slider.c:63
+msgid "3KHZ"
+msgstr "3KHZ"
+
+#: xmms/eq_slider.c:63
+msgid "6KHZ"
+msgstr "6KHZ"
+
+#: xmms/eq_slider.c:63
+msgid "12KHZ"
+msgstr "12KHZ"
+
+#: xmms/eq_slider.c:64
+msgid "14KHZ"
+msgstr "14KHZ"
+
+#: xmms/eq_slider.c:64
+msgid "16KHZ"
+msgstr "16KHZ"
+
+#: xmms/equalizer.c:83
+msgid "/Load"
+msgstr "/Загрузіць"
+
+#: xmms/equalizer.c:84
+msgid "/Load/Preset"
+msgstr "/Загрузіць/Ініцыялізаваць"
+
+#: xmms/equalizer.c:85
+msgid "/Load/Auto-load preset"
+msgstr "/Загрузіць/Аўтазагрузка"
+
+#: xmms/equalizer.c:86
+msgid "/Load/Default"
+msgstr "/Загрузіць/Па ўмаўчанні"
+
+#: xmms/equalizer.c:87 xmms/equalizer.c:89
+msgid "/Load/-"
+msgstr "/Загрузіць/-"
+
+#: xmms/equalizer.c:88
+msgid "/Load/Zero"
+msgstr "/Загрузіць/Пусты"
+
+#: xmms/equalizer.c:90
+msgid "/Load/From file"
+msgstr "/Загрузіць/З файлу"
+
+#: xmms/equalizer.c:91
+msgid "/Load/From WinAMP EQF file"
+msgstr "/Загрузіць/З WinAMP EQF файлу"
+
+#: xmms/equalizer.c:92
+msgid "/Import"
+msgstr "/Імпартаваць"
+
+#: xmms/equalizer.c:93
+msgid "/Import/WinAMP Presets"
+msgstr "/Імпартаваць/Настройкі зь WinAMP"
+
+#: xmms/equalizer.c:94
+msgid "/Save"
+msgstr "/Захаваць"
+
+#: xmms/equalizer.c:95
+msgid "/Save/Preset"
+msgstr "/Захаваць/Усталёўку"
+
+#: xmms/equalizer.c:96
+msgid "/Save/Auto-load preset"
+msgstr "/Захаваць/Ініцыялізацыю"
+
+#: xmms/equalizer.c:97
+msgid "/Save/Default"
+msgstr "/Захаваць/Па ўмаўчанні"
+
+#: xmms/equalizer.c:98
+msgid "/Save/-"
+msgstr "/Захаваць/-"
+
+#: xmms/equalizer.c:99
+msgid "/Save/To file"
+msgstr "/Захаваць/У файл"
+
+#: xmms/equalizer.c:100
+msgid "/Save/To WinAMP EQF file"
+msgstr "/Захаваць/У WinAMP EQF файл"
+
+#: xmms/equalizer.c:101
+msgid "/Delete"
+msgstr "/Выдаліць"
+
+#: xmms/equalizer.c:102
+msgid "/Delete/Preset"
+msgstr "/Выдаліць/Усталёўку"
+
+#: xmms/equalizer.c:103
+msgid "/Delete/Auto-load preset"
+msgstr "/Выдаліць/Ініцыялізацыю"
+
+#: xmms/equalizer.c:104
+msgid "/Configure Equalizer"
+msgstr "/Настройкі эквалайзэра"
+
+#: xmms/equalizer.c:740
+msgid "XMMS Equalizer"
+msgstr "Эквалайзэр XMMS"
+
+#: xmms/equalizer.c:1300
+msgid "Presets"
+msgstr "Усталёўкі"
+
+#: xmms/equalizer.c:1367
+msgid "Load preset"
+msgstr "Загрузіць усталёўку"
+
+#: xmms/equalizer.c:1373
+msgid "Load auto-preset"
+msgstr "Загрузіць аўта-ўсталёўку"
+
+#: xmms/equalizer.c:1396 xmms/equalizer.c:1411
+msgid "Load equalizer preset"
+msgstr "Загрузіць усталёўку эквалайзэра"
+
+#: xmms/equalizer.c:1426
+msgid "Import equalizer presets"
+msgstr "Імпарт усталёвак эквалайзера"
+
+#: xmms/equalizer.c:1437
+msgid "Save preset"
+msgstr "Захаваць усталёўку"
+
+#: xmms/equalizer.c:1446
+msgid "Save auto-preset"
+msgstr "Захаваць аўта-ўсталёўку"
+
+#: xmms/equalizer.c:1467 xmms/equalizer.c:1490
+msgid "Save equalizer preset"
+msgstr "Захаваць усталёўкі эквалаёзэра"
+
+#: xmms/equalizer.c:1500
+msgid "Delete preset"
+msgstr "Выдаліць усталёўку"
+
+#: xmms/equalizer.c:1500 xmms/equalizer.c:1504
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: xmms/equalizer.c:1504
+msgid "Delete auto-preset"
+msgstr "Выдаліць аўта-ўсталёўку"
+
+#: xmms/equalizer.c:1645
+msgid "Configure Equalizer"
+msgstr "Настроіць эквалайзэр"
+
+#: xmms/equalizer.c:1666
+msgid "Directory preset file:"
+msgstr "Каталёг файла ўсталёўкі:"
+
+#: xmms/equalizer.c:1674
+msgid "File preset extension:"
+msgstr "Файл усталёўкі пашырэнняў:"
+
+#: xmms/equalizer.c:1681
+msgid ""
+"If \"Auto\" is enabled on the equalizer, xmms will try to load equalizer "
+"presets like this:\n"
+"1: Look for a preset file in the directory of the file we are about to "
+"play.\n"
+"2: Look for a directory preset file in the same directory.\n"
+"3: Look for a preset saved with the \"auto-load\" feature\n"
+"4: Finally, try to load the \"default\" preset"
+msgstr ""
+"Калі эквалайзер працуе ў рэжыме \"Аўта\", xmms будзе спрабаваць загрузіць "
+"настройкі ў наступным парадку:\n"
+"1: З каталёга адграных файлаў.\n"
+"2: З файла настроек каталёга.\n"
+"3: З файла настроек захавнага ў \"аўта-загрузцы\".\n"
+"4: Настройку \"па-умаўчанню\""
+
+#: xmms/input.c:425
+msgid "No output plugin"
+msgstr "Няма пашырэння вываду"
+
+#: xmms/input.c:426
+msgid "No output plugin has been selected"
+msgstr "Не выбрана аніводнага пашырэння вываду"
+
+#: xmms/input.c:590
+msgid "No input plugin recognized this file"
+msgstr "Ніводнае пашырэнне вываду не распазнае гэтага файлу"
+
+#: xmms/input.c:592
+#, c-format
+msgid "Input plugin: %s"
+msgstr "Пашырэнне для ўвода %s"
+
+#: xmms/main.c:122
+msgid "/Preferences"
+msgstr "/Якасці"
+
+#: xmms/main.c:123
+msgid "/Skin Browser"
+msgstr "/Броўзер скур"
+
+#: xmms/main.c:124
+msgid "/Reload skin"
+msgstr "/Перазаргузіць скуру"
+
+#: xmms/main.c:125 xmms/main.c:129 xmms/main.c:133 xmms/main.c:257
+#: xmms/main.c:262 xmms/main.c:269 xmms/main.c:289 xmms/playlistwin.c:160
+msgid "/-"
+msgstr "/-"
+
+#: xmms/main.c:126
+msgid "/Repeat"
+msgstr "/Паўтор"
+
+#: xmms/main.c:127
+msgid "/Shuffle"
+msgstr "/Адвольна"
+
+#: xmms/main.c:128
+msgid "/No Playlist Advance"
+msgstr "/Няма пэўнага спіса"
+
+#: xmms/main.c:130
+msgid "/Time Elapsed"
+msgstr "/Пройдзена"
+
+#: xmms/main.c:131
+msgid "/Time Remaining"
+msgstr "/Засталося"
+
+#: xmms/main.c:132
+msgid "/Time Display (MMM:SS)"
+msgstr "/Паказ часу (ХХХ:СС)"
+
+#: xmms/main.c:134
+msgid "/Always On Top"
+msgstr "/Заўсёды зверху"
+
+#: xmms/main.c:135
+msgid "/Show on all desktops"
+msgstr "/Паказаць на ўсіх працоўных сталах"
+
+#: xmms/main.c:136
+msgid "/WindowShade Mode"
+msgstr "/Мінімізаваць"
+
+#: xmms/main.c:137
+msgid "/Playlist WindowShade Mode"
+msgstr "/Мінімізаваць спіс"
+
+#: xmms/main.c:138
+msgid "/Equalizer WindowShade Mode"
+msgstr "/Мінімізаваць вакно эквалайзера"
+
+#: xmms/main.c:139
+msgid "/DoubleSize"
+msgstr "/Двайны памер"
+
+#: xmms/main.c:140
+msgid "/Easy Move"
+msgstr "/Простае перамяшчэнне"
+
+#: xmms/main.c:155
+msgid "/File Info"
+msgstr "/інфа па файлу"
+
+#: xmms/main.c:156
+msgid "/Jump To File"
+msgstr "/Пераскочыць да файла"
+
+#: xmms/main.c:157
+msgid "/Jump To Time"
+msgstr "/Пераскочыць да часу"
+
+#: xmms/main.c:158
+msgid "/Autoscroll Song Name"
+msgstr "/Аўтапракрутка назваў спеваў"
+
+#: xmms/main.c:181
+msgid "/Visualization Mode"
+msgstr "/Візуалізацыя"
+
+#: xmms/main.c:182
+msgid "/Visualization Mode/Analyzer"
+msgstr "/Візуалізацыя/Аналізатар"
+
+#: xmms/main.c:183
+msgid "/Visualization Mode/Scope"
+msgstr "/Візуалізацыя/Графік"
+
+#: xmms/main.c:184
+msgid "/Visualization Mode/Off"
+msgstr "/Візуалізацыя/Выключана"
+
+#: xmms/main.c:185
+msgid "/Analyzer Mode"
+msgstr "/Аналізатар"
+
+#: xmms/main.c:186
+msgid "/Analyzer Mode/Normal"
+msgstr "/Аналізатар/Нармалёвы"
+
+#: xmms/main.c:187
+msgid "/Analyzer Mode/Fire"
+msgstr "/Аналізатар/Вогнішча"
+
+#: xmms/main.c:188
+msgid "/Analyzer Mode/Vertical Lines"
+msgstr "/Аналізатар/Вертыкальныя лініі"
+
+#: xmms/main.c:189 xmms/main.c:192
+msgid "/Analyzer Mode/-"
+msgstr "/Аналізатар/-"
+
+#: xmms/main.c:190
+msgid "/Analyzer Mode/Lines"
+msgstr "/Аналізатар/Лініі"
+
+#: xmms/main.c:191
+msgid "/Analyzer Mode/Bars"
+msgstr "/Аналізатар/Палоскі"
+
+#: xmms/main.c:193
+msgid "/Analyzer Mode/Peaks"
+msgstr "/Аналізатар/Дзіды"
+
+#: xmms/main.c:194
+msgid "/Scope Mode"
+msgstr "/Графік"
+
+#: xmms/main.c:195
+msgid "/Scope Mode/Dot Scope"
+msgstr "/Графік/Кропкі"
+
+#: xmms/main.c:196
+msgid "/Scope Mode/Line Scope"
+msgstr "/Графік/Лініі"
+
+#: xmms/main.c:197
+msgid "/Scope Mode/Solid Scope"
+msgstr "/Графік/Заліўка"
+
+#: xmms/main.c:198
+msgid "/WindowShade VU Mode"
+msgstr "/Мінімілізаванае вакно"
+
+#: xmms/main.c:199
+msgid "/WindowShade VU Mode/Normal"
+msgstr "/Мінімілізаванае вакно/Нармалёва"
+
+#: xmms/main.c:200
+msgid "/WindowShade VU Mode/Smooth"
+msgstr "/Мінімілізаванае вакно/Плаўны"
+
+#: xmms/main.c:201
+msgid "/Refresh Rate"
+msgstr "/Чысціня аднаўлення"
+
+#: xmms/main.c:202
+msgid "/Refresh Rate/Full (~50 fps)"
+msgstr "/Чысціня аднаўлення/Цалкам (~50 fps)"
+
+#: xmms/main.c:203
+msgid "/Refresh Rate/Half (~25 fps)"
+msgstr "/Чысціня аднаўлення/Палова (~25 fps)"
+
+#: xmms/main.c:204
+msgid "/Refresh Rate/Quarter (~13 fps)"
+msgstr "/Чысціня аднаўлення/Чвэртка (~13 fps)"
+
+#: xmms/main.c:205
+msgid "/Refresh Rate/Eighth (~6 fps)"
+msgstr "/Чысціня аднаўлення/Восьмая частка (~6 fps)"
+
+#: xmms/main.c:206
+msgid "/Analyzer Falloff"
+msgstr "/Падзенне аналізатара"
+
+#: xmms/main.c:207
+msgid "/Analyzer Falloff/Slowest"
+msgstr "/Падзенне аналізатара/Поўны тормаз"
+
+#: xmms/main.c:208
+msgid "/Analyzer Falloff/Slow"
+msgstr "/Падзенне аналізатара/Марудна"
+
+#: xmms/main.c:209
+msgid "/Analyzer Falloff/Medium"
+msgstr "/Падзенне аналізатара/Нармалёва"
+
+#: xmms/main.c:210
+msgid "/Analyzer Falloff/Fast"
+msgstr "/Падзенне аналізатара/Хутка"
+
+#: xmms/main.c:211
+msgid "/Analyzer Falloff/Fastest"
+msgstr "/Падзенне аналізатара/Няма куды хутчэй"
+
+#: xmms/main.c:212
+msgid "/Peaks Falloff"
+msgstr "/Падзенне дзідаў"
+
+#: xmms/main.c:213
+msgid "/Peaks Falloff/Slowest"
+msgstr "/Падзенне дзідаў/Поўны тормаз"
+
+#: xmms/main.c:214
+msgid "/Peaks Falloff/Slow"
+msgstr "/Падзенне дзідаў/Марудна"
+
+#: xmms/main.c:215
+msgid "/Peaks Falloff/Medium"
+msgstr "/Падзенне дзідаў/Нармалёва"
+
+#: xmms/main.c:216
+msgid "/Peaks Falloff/Fast"
+msgstr "/Падзенне дзідаў/Хутка"
+
+#: xmms/main.c:217
+msgid "/Peaks Falloff/Fastest"
+msgstr "/Падзенне дзідаў/Няма куда хутчэй"
+
+#: xmms/main.c:218
+msgid "/Visualization plugins"
+msgstr "/Пашырэнне візуалізацыя"
+
+#: xmms/main.c:256
+msgid "/About XMMS"
+msgstr "/Даведка па XMMS"
+
+#: xmms/main.c:258
+msgid "/Play File"
+msgstr "/Граць файл"
+
+#: xmms/main.c:259
+msgid "/Play Directory"
+msgstr "/Граць з каталогу"
+
+#: xmms/main.c:260
+msgid "/Play Location"
+msgstr "/Мейсцазнаходжанне для грання"
+
+#: xmms/main.c:261 xmms/playlistwin.c:157
+msgid "/View File Info"
+msgstr "/Праглядзець інфу па файлу"
+
+#: xmms/main.c:263
+msgid "/Main Window"
+msgstr "/Асноўнае вакно"
+
+#: xmms/main.c:264
+msgid "/Playlist Editor"
+msgstr "/Рэдактар спіса"
+
+#: xmms/main.c:265
+msgid "/Graphical EQ"
+msgstr "/Графічны ЭЛ"
+
+#: xmms/main.c:266
+msgid "/Layout"
+msgstr "/Размяшчэнне"
+
+#: xmms/main.c:267
+msgid "/Layout/Playlist beside the player"
+msgstr "/Размяшчэнне/Спіс побач з прайгравальнікам"
+
+#: xmms/main.c:268
+msgid "/Layout/Playlist below the equalizer"
+msgstr "/Размяшчэнне/Спіс пад эквалайзерам"
+
+#: xmms/main.c:270
+msgid "/Options"
+msgstr "/Настройкі"
+
+#: xmms/main.c:271
+msgid "/Playback"
+msgstr "/Узнаўленне"
+
+#: xmms/main.c:272
+msgid "/Playback/Previous"
+msgstr "/Узнаўленне/Мінулае"
+
+#: xmms/main.c:273
+msgid "/Playback/Play"
+msgstr "/Узнаўленне/Граць"
+
+#: xmms/main.c:274
+msgid "/Playback/Pause"
+msgstr "/Узнаўленне/Прыпыніць"
+
+#: xmms/main.c:275
+msgid "/Playback/Stop"
+msgstr "/Узнаўленне/Спыніць"
+
+#: xmms/main.c:276
+msgid "/Playback/Next"
+msgstr "/Узнаўленне/Наступнае"
+
+#: xmms/main.c:277 xmms/main.c:284
+msgid "/Playback/-"
+msgstr "/Узнаўленне/-"
+
+#: xmms/main.c:279
+msgid "/Playback/Back 5 Seconds"
+msgstr "/Узнаўленне/Нзд на 5 сек"
+
+#: xmms/main.c:280
+msgid "/Playback/Fwd 5 Seconds"
+msgstr "/Узнаўленне/Нпр на 5 сек"
+
+#: xmms/main.c:281
+msgid "/Playback/Start of List"
+msgstr "/Узнаўленне/Пачатак Ліста"
+
+#: xmms/main.c:282
+msgid "/Playback/10 Tracks Back"
+msgstr "/Узнаўленне/На 10 запісаў назад"
+
+#: xmms/main.c:283
+msgid "/Playback/10 Tracks Fwd"
+msgstr "/Узнаўленне/На 10 запісаў наперад"
+
+#: xmms/main.c:285
+msgid "/Playback/Jump to Time"
+msgstr "/Узнаўленне/Скокнуць на час"
+
+#: xmms/main.c:286
+msgid "/Playback/Jump to File"
+msgstr "/Узнаўленне/Скокнуць на файл"
+
+#: xmms/main.c:287
+msgid "/Playback/Clear Queue"
+msgstr "/Узнаўленне/Ачысціць чаргу"
+
+#: xmms/main.c:288
+msgid "/Visualization"
+msgstr "/Візуалізацыя"
+
+#: xmms/main.c:290
+msgid "/Exit"
+msgstr "/Выхад"
+
+#: xmms/main.c:1519
+msgid "Jump to time"
+msgstr "Скокнуць на час"
+
+#: xmms/main.c:1530
+msgid "Jump to:"
+msgstr "Скокнуць на:"
+
+#: xmms/main.c:1546
+msgid "minutes:seconds"
+msgstr "хвілін:секунд"
+
+#: xmms/main.c:1553
+msgid "Track length:"
+msgstr "Працягласць запісу:"
+
+#: xmms/main.c:1567 xmms/main.c:2002
+msgid "Jump"
+msgstr "Скокнуць"
+
+#: xmms/main.c:1606 xmms/main.c:1945 xmms/main.c:2279
+msgid "Queue"
+msgstr "Чарга"
+
+#: xmms/main.c:1615
+msgid "Unqueue"
+msgstr "Без чаргі"
+
+#: xmms/main.c:1933 xmms/main.c:2255
+msgid "Jump to file"
+msgstr "Скокнуць на файл"
+
+#: xmms/main.c:1947 xmms/main.c:2281
+msgid "Q"
+msgstr "Q"
+
+#: xmms/main.c:1948 xmms/main.c:2282
+msgid "Files"
+msgstr "Файлы"
+
+#: xmms/main.c:1964 xmms/main.c:2350
+msgid "Search: "
+msgstr "Шукаць: "
+
+#: xmms/main.c:2285
+msgid "Queued files: "
+msgstr "Файлаў у чарзе: "
+
+#: xmms/main.c:2313
+msgid "Move up"
+msgstr "Перамясціць уверх"
+
+#: xmms/main.c:2320
+msgid "Move down"
+msgstr "Перамясціць уніз"
+
+#: xmms/main.c:2327
+msgid "Remove"
+msgstr "Выдаліць"
+
+#: xmms/main.c:2489 xmms/playlistwin.c:667
+msgid "Select directory to add:"
+msgstr "Выбраць каталог для дадатку"
+
+#: xmms/main.c:2538
+msgid "Enter location to play:"
+msgstr "Увесці пазыцыю каб граць:"
+
+#: xmms/main.c:2666
+#, c-format
+msgid "SEEK TO: %d:%-2.2d/%d:%-2.2d (%d%%)"
+msgstr "ПЕРАМЯШЧЭННЕ: %d:%-2.2d/%d:%-2.2d (%d%%)"
+
+#: xmms/main.c:2691 xmms/main.c:3262
+#, c-format
+msgid "VOLUME: %d%%"
+msgstr "ГУК: %d%%"
+
+#: xmms/main.c:2720 xmms/main.c:3267
+#, c-format
+msgid "BALANCE: %d%% LEFT"
+msgstr "БАЛАНС: %d%% ЛЕВА"
+
+#: xmms/main.c:2725 xmms/main.c:3270
+msgid "BALANCE: CENTER"
+msgstr "БАЛАНС: ЦЭНТР"
+
+#: xmms/main.c:2730 xmms/main.c:3273
+#, c-format
+msgid "BALANCE: %d%% RIGHT"
+msgstr "БАЛАНС: %d%% ПРАВА"
+
+#: xmms/main.c:3134
+msgid "OPTIONS MENU"
+msgstr "МЕНЮ НАСТРОЕК"
+
+#: xmms/main.c:3140
+msgid "DISABLE ALWAYS ON TOP (N/A)"
+msgstr "ВЫКЛЮЧЫЦЬ УСЁ НА ВЕРСЕ (Н/Д)"
+
+#: xmms/main.c:3142
+msgid "ENABLE ALWAYS ON TOP (N/A)"
+msgstr "УКЛЮЧЫЦЬ УСЁ НАВЕРСЕ (Н/Д)"
+
+#: xmms/main.c:3145
+msgid "DISABLE ALWAYS ON TOP"
+msgstr "ВЫКЛЮЧЫЦЬ заўсёды НАВЕРСЕ"
+
+#: xmms/main.c:3147
+msgid "ENABLE ALWAYS ON TOP"
+msgstr "УКЛЮЧЫЦЬ НАВЕРСЕ"
+
+#: xmms/main.c:3150
+msgid "FILE INFO BOX"
+msgstr "ВАКНО ІНФАРМАЦЫІ АБ ФАЙЛЕ"
+
+#: xmms/main.c:3154
+msgid "DISABLE DOUBLESIZE"
+msgstr "ВЫКЛЮЧЫЦЬ ДВАЙНЫ ПАМЕР"
+
+#: xmms/main.c:3156
+msgid "ENABLE DOUBLESIZE"
+msgstr "УКЛЮЧЫЦЬ ДВАЙНЫ ПАМЕР"
+
+#: xmms/main.c:3159
+msgid "VISUALIZATION MENU"
+msgstr "МЕНЮ ВІЗУАЛІЗАВАННЯ"
+
+#: xmms/main.c:3575
+msgid "Couldn't open audio"
+msgstr "Немагчыма адчыніць аўдыа"
+
+#: xmms/main.c:3576
+msgid ""
+"Please check that:\n"
+"\n"
+"Your soundcard is configured properly\n"
+"You have the correct output plugin selected\n"
+"No other program is blocking the soundcard"
+msgstr ""
+"Калі ласка праверце што:\n"
+"\n"
+"1. Вы выбралі менавіта тое пашырэнне выхаду\n"
+"2. Іншыя прогі не перакрываюць гукавую карту\n"
+"3. Вашая гукавая карта настроена як трэба"
+
+#: xmms/main.c:3811
+#, c-format
+msgid ""
+"Usage: xmms [options] [files] ...\n"
+"\n"
+"Options:\n"
+"--------\n"
+msgstr ""
+"Выпаўненне: xmms [параметры] [файлы] ...\n"
+"\n"
+"Параметры:\n"
+"--------\n"
+
+#: xmms/main.c:3816
+#, c-format
+msgid "Display this text and exit."
+msgstr "Паказаць гэты тэкст й выйсці."
+
+#: xmms/main.c:3819
+#, c-format
+msgid "Select XMMS session (Default: 0)"
+msgstr "Выбраць сэсію XMMS (Па ўмаўчанні: 0)"
+
+#: xmms/main.c:3822
+#, c-format
+msgid "Skip backwards in playlist"
+msgstr "Скінуць настройкі ў спісе"
+
+#: xmms/main.c:3825
+#, c-format
+msgid "Start playing current playlist"
+msgstr "Заграем дадзены спіс"
+
+#: xmms/main.c:3828
+#, c-format
+msgid "Pause current song"
+msgstr "Прыпыніць дадзены спеў"
+
+#: xmms/main.c:3831
+#, c-format
+msgid "Stop current song"
+msgstr "Спыніць дадзены спеў"
+
+#: xmms/main.c:3834
+#, c-format
+msgid "Pause if playing, play otherwise"
+msgstr "Прыпыніць калі грае, калі не -дык пачаць граць"
+
+#: xmms/main.c:3837
+#, c-format
+msgid "Skip forward in playlist"
+msgstr "Скінуць наперад у спісе"
+
+#: xmms/main.c:3840
+#, c-format
+msgid "Don't clear the playlist"
+msgstr "Не чысціць спіс"
+
+#: xmms/main.c:3843
+#, c-format
+msgid "Add file(s) to playlist and queue"
+msgstr "Дадаць файл(ы) у спіс і чаргу"
+
+#: xmms/main.c:3844 xmms/main.c:3848 xmms/main.c:3852
+msgid "[=SWITCH]"
+msgstr "[=SWITCH]"
+
+#: xmms/main.c:3846
+#, c-format
+msgid "Toggle the 'shuffle' flag."
+msgstr "Пераключыць выпадковае прайграванне."
+
+#: xmms/main.c:3850
+#, c-format
+msgid "Toggle the 'repeat' flag."
+msgstr "Пераключыць паўтор."
+
+#: xmms/main.c:3854
+#, c-format
+msgid "Toggle the 'no playlist advance' flag."
+msgstr "Пераключыць рэжым «не пераходзіць да наступнай песні»."
+
+#: xmms/main.c:3857
+#, c-format
+msgid "SWITCH may be either 'on' or 'off'\n"
+msgstr "SWITCH можа быць 'on' або 'off'\n"
+
+#: xmms/main.c:3860
+#, c-format
+msgid "Show the main window."
+msgstr "Паказаць галоўнае вакно"
+
+#: xmms/main.c:3863
+#, c-format
+msgid "Print version number and exit."
+msgstr "Вывесці версыю ды й выйсці."
+
+#: xmms/main.c:3866
+#, c-format
+msgid "Close remote session."
+msgstr "Закрыць аддалены сеанс."
+
+#: xmms/main.c:4037 xmms/main.c:4061 xmms/main.c:4085
+#, c-format
+msgid "Value '%s' not understood, must be either 'on' or 'off'.\n"
+msgstr "Значэнне '%s' незразумелае, мусіць быць 'on' або 'off'.\n"
+
+#: xmms/main.c:4112
+msgid "GLib does not support threads."
+msgstr "GLib не падтрымлівае запраўку"
+
+#: xmms/main.c:4162
+#, c-format
+msgid ""
+"Sorry, your GTK+ version (%d.%d.%d) doesn't work with XMMS.\n"
+"Please use GTK+ %s or newer.\n"
+msgstr ""
+"Прабачце, але ваша GTK+ версыі (%d.%d.%d) не працуе з XMMS.\n"
+"Пастаўце калі ласка GTK+ %s альбо панавее нешта.\n"
+
+#: xmms/playlistwin.c:94
+msgid "/Sort List"
+msgstr "/Сартыраваць спіс"
+
+#: xmms/playlistwin.c:95
+msgid "/Sort List/By Title"
+msgstr "/Сартыраваць спіс/Па назве"
+
+#: xmms/playlistwin.c:97
+msgid "/Sort List/By Filename"
+msgstr "/Сартыраваць спіс/Па назве файла"
+
+#: xmms/playlistwin.c:99
+msgid "/Sort List/By Path + Filename"
+msgstr "/Сартыраваць спіс/Па шляху + назве"
+
+#: xmms/playlistwin.c:101
+msgid "/Sort List/By Date"
+msgstr "/Сартыраваць спіс/Па даце"
+
+#: xmms/playlistwin.c:103 xmms/playlistwin.c:172
+msgid "/Selection"
+msgstr "/Выбар"
+
+#: xmms/playlistwin.c:104
+msgid "/Selection/Sort By Title"
+msgstr "/Выбар/Сартаваць па назве"
+
+#: xmms/playlistwin.c:106
+msgid "/Selection/Sort By Filename"
+msgstr "/Выбар/Сартаваць па назве файла"
+
+#: xmms/playlistwin.c:108
+msgid "/Selection/Sort By Path + Filename"
+msgstr "/Выбар/Сартаваць па шляху + назве файла"
+
+#: xmms/playlistwin.c:110
+msgid "/Selection/Sort By Date"
+msgstr "/Выбар/Сартаваць па даце"
+
+#: xmms/playlistwin.c:112
+msgid "/Selection/Randomize"
+msgstr "/Выбар/Перамяшаць"
+
+#: xmms/playlistwin.c:115
+msgid "/Randomize List"
+msgstr "/Перамяшаць спіс"
+
+#: xmms/playlistwin.c:117
+msgid "/Reverse List"
+msgstr "/Перавярнуць спіс"
+
+#: xmms/playlistwin.c:130
+msgid "/By extension"
+msgstr "/Па тыпу"
+
+#: xmms/playlistwin.c:147
+msgid "/Remove Dead Files"
+msgstr "/Выдаліць дохлыя файлы"
+
+#: xmms/playlistwin.c:148
+msgid "/Physically Delete Files"
+msgstr "/Фізічна выдаліць файлы"
+
+#: xmms/playlistwin.c:158
+msgid "/Queue - Unqueue"
+msgstr "/Чарга - З чаргі"
+
+#: xmms/playlistwin.c:159
+msgid "/Queue manager"
+msgstr "/Кіраванне чаргой"
+
+#: xmms/playlistwin.c:161
+msgid "/Add"
+msgstr "/Дадаць"
+
+#: xmms/playlistwin.c:162
+msgid "/Add/File"
+msgstr "/Дадаць/Файл"
+
+#: xmms/playlistwin.c:163
+msgid "/Add/Directory"
+msgstr "/Дадаць/Каталог"
+
+#: xmms/playlistwin.c:164
+msgid "/Add/Url"
+msgstr "/Дадаць/Url"
+
+#: xmms/playlistwin.c:166
+msgid "/Remove"
+msgstr "/Выдаліць"
+
+#: xmms/playlistwin.c:167
+msgid "/Remove/Selected"
+msgstr "/Выдаліць/Выбранае"
+
+#: xmms/playlistwin.c:168
+msgid "/Remove/Crop"
+msgstr "/Выдаліць/Акрамя выбранага"
+
+#: xmms/playlistwin.c:169
+msgid "/Remove/All"
+msgstr "/Выдаліць/Усё"
+
+#: xmms/playlistwin.c:170
+msgid "/Remove/Misc"
+msgstr "/Выдаліць/Іншае"
+
+#: xmms/playlistwin.c:173
+msgid "/Selection/Select All"
+msgstr "/Выбар/Выбраць усё"
+
+#: xmms/playlistwin.c:174
+msgid "/Selection/Select None"
+msgstr "/Выбар/Нічога не выбіраць"
+
+#: xmms/playlistwin.c:175
+msgid "/Selection/Invert Selection"
+msgstr "/Выбар/Інвертаваць выбранае"
+
+#: xmms/playlistwin.c:176
+msgid "/Selection/-"
+msgstr "/Выбар/-"
+
+#: xmms/playlistwin.c:177
+msgid "/Selection/Read Extended Info"
+msgstr "/Выбар/Пачытаць інфу пашырэння"
+
+#: xmms/playlistwin.c:179
+msgid "/Sort"
+msgstr "/Сартыроўка"
+
+#: xmms/playlistwin.c:181
+msgid "/Playlist"
+msgstr "/Спіс"
+
+#: xmms/playlistwin.c:182
+msgid "/Playlist/Load List"
+msgstr "/Спіс/Загрузіць спіс"
+
+#: xmms/playlistwin.c:183
+msgid "/Playlist/Save List"
+msgstr "/Спіс/Захаваць спіс"
+
+#: xmms/playlistwin.c:184
+msgid "/Playlist/New List"
+msgstr "/Спіс/Новы спіс"
+
+#: xmms/playlistwin.c:645
+msgid "Enter URL to add:"
+msgstr "Увядзіце URL каб нешта дадаць"
+
+#: xmms/playlistwin.c:745
+msgid "Unable to write playlist!"
+msgstr "Немагчыма запісаць спіс!"
+
+#: xmms/playlistwin.c:748
+#, c-format
+msgid "Error writing playlist \"%s\": %s"
+msgstr "Памылка запісу спіса \"%s\": %s"
+
+#: xmms/playlistwin.c:795
+msgid "File exists!"
+msgstr "Файл існуе!"
+
+#: xmms/playlistwin.c:798
+#, c-format
+msgid "%s already exists."
+msgstr "%s ужо знойдзены "
+
+#: xmms/playlistwin.c:809
+msgid "Overwrite"
+msgstr "Перапісаць"
+
+#: xmms/playlistwin.c:866
+#, c-format
+msgid ""
+"Unknown file type for %s.\n"
+"The filename of the playlist should end in either \".m3u\" or \".pls\"."
+msgstr ""
+"Невядомы тып файла %s.\n"
+"Назва файла спісу мусіць заканчвацца на \".m3u\" або \".pls\"."
+
+#: xmms/playlistwin.c:870
+msgid "Unable to save playlist"
+msgstr "Немагчыма захаваць спіс"
+
+#: xmms/playlistwin.c:943
+msgid "Load playlist"
+msgstr "Загрузіць спіс"
+
+#: xmms/playlistwin.c:980
+msgid "Save playlist"
+msgstr "Захаваць спіс"
+
+#: xmms/playlistwin.c:998
+msgid "Save options"
+msgstr "Захаваць усталёўкі"
+
+#: xmms/playlistwin.c:1002
+msgid "Determine file type:"
+msgstr "Вызначыць тып файлу:"
+
+#: xmms/playlistwin.c:1444
+#, c-format
+msgid "Failed to delete \"%s\": %s."
+msgstr "Немагчыма выдаліць \"%s\": %s."
+
+#: xmms/playlistwin.c:1461
+#, c-format
+msgid "%d of %d files successfully deleted."
+msgstr "%d з %d файлаў пасьпяхова выдалена."
+
+#: xmms/playlistwin.c:1465
+msgid "XMMS: Files deleted"
+msgstr "XMMS: Файлы Выдалены"
+
+#: xmms/playlistwin.c:1496
+msgid "XMMS: Delete files?"
+msgstr "XMMS: выдаліць файлы?"
+
+#: xmms/playlistwin.c:1505
+#, c-format
+msgid "Really delete %d files?"
+msgstr "Сапраўды выдаліць %d файл(аў)?"
+
+#: xmms/playlistwin.c:1507
+#, c-format
+msgid "Really delete: \"%s\"?"
+msgstr "Сапраўды выдаліць: \"%s\"?"
+
+#: xmms/playlistwin.c:1967
+msgid "XMMS Playlist"
+msgstr "XMMS Спіс"
+
+#: xmms/prefswin.c:438
+msgid "Select playlist font:"
+msgstr "Выберыце шрыфт для спіса:"
+
+#: xmms/prefswin.c:465
+msgid "Select main window font:"
+msgstr "Выберыце шрыфт галоўнага вакна:"
+
+#: xmms/prefswin.c:717
+msgid "Preferences"
+msgstr "Настройкі"
+
+#: xmms/prefswin.c:740
+msgid "Input Plugins"
+msgstr "Пашырэнне для ўвода"
+
+#: xmms/prefswin.c:748
+msgid "Input plugins"
+msgstr "Пашырэнне для ўвода"
+
+#: xmms/prefswin.c:770 xmms/prefswin.c:802 xmms/prefswin.c:844
+#: xmms/prefswin.c:889 xmms/prefswin.c:939
+msgid "Configure"
+msgstr "Настройка"
+
+#: xmms/prefswin.c:773 xmms/prefswin.c:806 xmms/prefswin.c:848
+#: xmms/prefswin.c:893 xmms/prefswin.c:943
+msgid "About"
+msgstr "Даведка"
+
+#: xmms/prefswin.c:777 xmms/prefswin.c:852 xmms/prefswin.c:897
+#: xmms/prefswin.c:947
+msgid "Enable plugin"
+msgstr "Дазволіць пашырэнне"
+
+#: xmms/prefswin.c:785
+msgid "Output Plugin"
+msgstr "Пашырэнне для вываду"
+
+#: xmms/prefswin.c:810
+msgid "Audio I/O Plugins"
+msgstr "Пашырэнне аўдыа ўводу/вываду"
+
+#: xmms/prefswin.c:816 xmms/prefswin.c:856
+msgid "Effects Plugins"
+msgstr "Пашырэнні эфектаў"
+
+#: xmms/prefswin.c:823
+msgid "Effects plugins"
+msgstr "Пашырэнні эфектаў"
+
+#: xmms/prefswin.c:862 xmms/prefswin.c:901
+msgid "General Plugins"
+msgstr "Асноўныя пашырэнні"
+
+#: xmms/prefswin.c:868
+msgid "General plugins"
+msgstr "Асноўныя пашырэнні"
+
+#: xmms/prefswin.c:909 xmms/prefswin.c:951
+msgid "Visualization Plugins"
+msgstr "Пашырэнні Візуалізацыі"
+
+#: xmms/prefswin.c:917
+msgid "Visualization plugins"
+msgstr "Пашырэнні Візуалізацыі"
+
+#: xmms/prefswin.c:966
+msgid "Read info on"
+msgstr "Пачытаць інфу аб"
+
+#: xmms/prefswin.c:968
+msgid "play"
+msgstr "Граць"
+
+#: xmms/prefswin.c:969
+msgid "Read song title and length only when starting to play"
+msgstr "Прачытаць назву і працягласць спева толькі пры пачатку прайгравання"
+
+#: xmms/prefswin.c:971
+msgid "demand"
+msgstr "Па патрабаванню"
+
+#: xmms/prefswin.c:972
+msgid "Read song title and length when the song is visible in the playlist"
+msgstr "Прачытаць назву і працягласць спева толькі калі спеў бачны ў плэйлісце"
+
+#: xmms/prefswin.c:974
+msgid "load"
+msgstr "загрузіць"
+
+#: xmms/prefswin.c:975
+msgid ""
+"Read song title and length as soon as the song is loaded to the playlist"
+msgstr "Прачытаць назву і працягласць спева тады калі спеў загрузіўся ў спісе"
+
+#: xmms/prefswin.c:978
+msgid "Allow multiple instances"
+msgstr "Дазволіць некалькі запускаў"
+
+#: xmms/prefswin.c:980
+msgid "Convert %20 to space"
+msgstr "Прыабразаваць %20 у прамежак"
+
+#: xmms/prefswin.c:981
+msgid "Always show clutterbar"
+msgstr "Заўсёды паказываць паласу пракруткі"
+
+#: xmms/prefswin.c:982
+msgid ""
+"The \"clutterbar\" is the row of buttons at the left side of the main window"
+msgstr ""
+" \"беспарадкавы радок\" гэта калонка клявішаў ў левым баку асноўнага вакна"
+
+#: xmms/prefswin.c:984
+msgid "Convert underscore to space"
+msgstr "Прыабразаваць прамежак у злучок"
+
+#: xmms/prefswin.c:985
+msgid "Save window positions"
+msgstr "Захаваць пазыцыю вакна"
+
+#: xmms/prefswin.c:987
+msgid "Dim titlebar when inactive"
+msgstr "Гасіць назву пры пасіўнасці"
+
+#: xmms/prefswin.c:988
+msgid "Show numbers in playlist"
+msgstr "Паказаць лічбы ў спісе"
+
+#: xmms/prefswin.c:990
+msgid "Sort \"Jump to file\" alphabetically"
+msgstr "Сартыраваць \"Пераскочыць на файл\" па алфавіту"
+
+#: xmms/prefswin.c:991
+msgid "Equalizer doublesize linked"
+msgstr "Эквалайзер двайнога памеру злінкаваны"
+
+#: xmms/prefswin.c:993
+msgid "Smooth title scroll"
+msgstr "Плаўная пракрутка назваў"
+
+#: xmms/prefswin.c:997
+msgid "Pause between songs for"
+msgstr "Прамежак паміж трэкамі"
+
+#: xmms/prefswin.c:1002
+msgid "seconds"
+msgstr "секунд"
+
+#: xmms/prefswin.c:1015
+msgid "Layout"
+msgstr "Размяшчэнне"
+
+#: xmms/prefswin.c:1019
+msgid "Playlist beside the player"
+msgstr "Спіс побач з прайгравальнікам"
+
+#: xmms/prefswin.c:1022
+msgid "Playlist below the equalizer"
+msgstr "Спіс пад эквалайзерам"
+
+#: xmms/prefswin.c:1027
+msgid ""
+"How the player, equalizer and playlist are arranged in the one window they "
+"make together"
+msgstr ""
+"Як прайгравальнік, эквалайзер і спіс размешчаны ў адным акне, якое яны "
+"ўтвараюць разам"
+
+#: xmms/prefswin.c:1037
+msgid ""
+"When moving windows around, snap them together, and towards screen edges at "
+"this distance"
+msgstr ""
+"Пры перамяшчэнні вокнаў прыцягваць іх адно да другога і да краёў экрана на "
+"гэтай адлегласці"
+
+#: xmms/prefswin.c:1041
+msgid "Snap windows at"
+msgstr "Перамясціць вокны на"
+
+#: xmms/prefswin.c:1046
+msgid "pixels"
+msgstr "пікселяў"
+
+#: xmms/prefswin.c:1053
+msgid "Show window manager decorations"
+msgstr "Паказаць упрыгожванні ваконнага мэнеджэра"
+
+#: xmms/prefswin.c:1057
+msgid "Use '\\' as a directory delimiter"
+msgstr "Карыстацца '\\' як раздзяляльнікам каталёгаў"
+
+#: xmms/prefswin.c:1060
+msgid ""
+"Recommended if you want to load playlists that were created in MS Windows"
+msgstr "Рэкамендуецца, калі вы хочаце загружаць спісы, створаныя ў MS Windows"
+
+#: xmms/prefswin.c:1064
+msgid "Mouse Wheel adjusts Volume by (%)"
+msgstr "Ролік мышы змяняе гук на (%)"
+
+#: xmms/prefswin.c:1073
+msgid "Use meta-data in playlists"
+msgstr "Выкарыстаць метададзеныя ў спісах"
+
+#: xmms/prefswin.c:1076
+msgid "Store information such as song title and length to playlists"
+msgstr "Захоўваць у спісах інфармацыю, напрыклад назву і працягласць песні"
+
+#: xmms/prefswin.c:1087
+msgid "Playlist"
+msgstr "Спіс"
+
+#: xmms/prefswin.c:1103
+msgid "Main Window"
+msgstr "Асноўнае вакно"
+
+#: xmms/prefswin.c:1110
+msgid "Use the font below instead of the skin's"
+msgstr "Выкарыстоўваць шрыфт ніжэй замест шрыфта скуры"
+
+#: xmms/prefswin.c:1122
+msgid "Fonts"
+msgstr "Шрыфты"
+
+#: xmms/prefswin.c:1146
+msgid "Advanced Title Options"
+msgstr "Дадатковыя налады назвы"
+
+#: xmms/prefswin.c:1154
+#, c-format
+msgid ""
+"%0.2n - Display a 0 padded 2 char long tracknumber\n"
+"\n"
+"For more details, please read the included README."
+msgstr ""
+"%0.2n - Паказваць нумар трэка з 2 знакаў, дапоўнены нулём\n"
+"\n"
+"Падрабязнасці глядзіце ў далучаным файле README."
+
+#: xmms/prefswin.c:1285 xmms/prefswin.c:1315 xmms/prefswin.c:1345
+msgid " (enabled)"
+msgstr "(дазволіць)"
+
+#: xmms/prefswin.c:1374
+msgid " (disabled)"
+msgstr "(адмовіць)"
+
+#: xmms/skinwin.c:52
+msgid "Skin selector"
+msgstr "Выбар скур"
+
+#: xmms/skinwin.c:60
+msgid "Skins"
+msgstr "Скуры"
+
+#: xmms/skinwin.c:79
+msgid "Select random skin on play"
+msgstr "Выбіраць адвольную скру пры ўзнаўленні"
+
+#: xmms/skinwin.c:176
+msgid "(none)"
+msgstr "(не)"
+
+#: xmms/util.c:550
+msgid "Enqueue"
+msgstr "У чарзе"
+
+#: xmms/util.c:786
+msgid "Play files"
+msgstr "Граць файлы"
+
+#: xmms/util.c:788
+msgid "Load files"
+msgstr "Загрузіць файл(ы)"
+
+#: xmms/util.c:815
+msgid "Add selected files"
+msgstr "Дадаць выбраныя файлы"
+
+#: xmms/util.c:819
+msgid "Add all files in directory"
+msgstr "Дадаць усе файлы з каталёга"
+
+#: xmms/util.c:841
+msgid "Play"
+msgstr "Граць"
+
+#: xmms/util.c:843 xmms/util.c:861
+msgid "Add"
+msgstr "Дадаць"

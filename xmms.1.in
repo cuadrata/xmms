@@ -1,0 +1,232 @@
+.TH XMMS 1 "November 2026" "Version @VERSION@" "XMMS Manual Pages"
+.SH NAME
+XMMS \- an audio player for X.
+.SH SYNOPSIS
+.B xmms
+[\-h] [\-\-help] [\-n \fI<session>\fP] [\-\-session=\fI<session>\fP]
+[\-r] [\-\-rew] [\-p] [\-\-play] [\-u] [\-\-pause] [\-s] [\-\-stop]
+[\-t] [\-\-play\-pause] [\-f] [\-\-fwd] [\-e] [\-\-enqueue] [\-S]
+[\-\-toggle\-shuffle] [\-R] [\-\-toggle\-repeat] [\-A]
+[\-\-toggle\-advance] [\-m] [\-\-show\-main\-window] [\-q] [\-\-quit]
+[\-v] [\-\-version] [\fIfilename\fP]...
+.SH DESCRIPTION
+\fIXMMS\fP is the X Multimedia System. It is used to play audio and
+other kinds of media files. By default XMMS can play MPEG audio, Ogg
+Vorbis, RIFF wav, most module formats and a few other formats. XMMS
+can be extended through plugins to play a number of other audio and
+video formats.
+.SH OPTIONS
+XMMS accepts the following options:
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-n, \-\-session
+Select XMMS session (Default: 0).
+.TP
+.B \-r, \-\-rew
+Skip backwards in playlist.
+.TP
+.B \-p, \-\-play
+Start playing current playlist.
+.TP
+.B \-u, \-\-pause
+Pause current song.
+.TP
+.B \-s, \-\-stop
+Stop current song.
+.TP
+.B \-t, \-\-play\-pause
+Pause if playing, play otherwise.
+.TP
+.B \-f, \-\-fwd
+Skip forward in playlist.
+.TP
+.B \-e, \-\-enqueue
+Don't clear the playlist.
+.TP
+.B \-Q, \-\-queue
+Add file(s) to playlist and queue
+.TP
+.B \-S, \-\-toggle\-shuffle\fP[=\fISWITCH\fP]
+Toggle the 'shuffle' flag.
+
+Optional argument SWITCH may be either 'on' or 'off'
+.TP
+.B \-R, \-\-toggle\-repeat\fP[=\fISWITCH\fP]
+Toggle the 'repeat' flag.
+
+Optional argument SWITCH may be either 'on' or 'off'
+.TP
+.B \-A, \-\-toggle\-advance\fP[=\fISWITCH\fP]
+Toggle the 'no playlist advance' flag.
+
+Optional argument SWITCH may be either 'on' or 'off'
+.TP
+.B \-m, \-\-show\-main\-window
+Show the main window.
+.TP
+.B \-v, \-\-version
+Print version number and exit.
+.TP
+.B \-q, \-\-quit
+Close remote session.
+.SH SKINS
+XMMS supports WinAmp style skins. Skins may be stored in either
+archived (\fI.wsz\fP, \fI.zip\fP, \fI.tar\fP, \fI.tgz\fP or
+\fI.tar.gz\fP) or unarchived format. XMMS reads archived skins itself,
+without unpacking them to disk. XMMS looks for skinfiles in
+@datadir@/xmms/Skins, $XDG_DATA_HOME/xmms/Skins (~/.local/share/xmms/Skins),
+and locations specified by the \fBSKINSDIR\fP variable.
+.SH KEYBINDINGS
+Global keybindings for XMMS:
+
+.in +2
+.ta \w'Shift + Control + w 'u
+z	Previous song
+.br
+x	Play
+.br
+c	Pause
+.br
+v	Stop
+.br
+b	Next song
+.br
+l	Play file
+.br
+j	Jump to file
+.br
+r	Toggle Repeat
+.br
+s	Toggle Shuffle
+.br
+Shift + l	Play directory
+.br
+Control + l	Play location
+.br
+Control + p	Preferences dialog
+.br
+Control + v	Visualization plugin dialog
+.br
+Control + r	Time remaining
+.br
+Control + a	Always on top
+.br
+Control + w	Winshade mode
+.br
+Control + d	Doublesize mode
+.br
+Control + e	Easy move
+.br
+Control + j	Jump to time
+.br
+Control + z	Start of list
+.br
+Control + n	No Playlist Advance
+.br
+Control + 3	File info dialog
+.br
+Control + Alt + w	Toggle Equalizer winshade mode
+.br
+Shift + Control + w	Playlist winshade mode
+.br
+Alt + w	Hide/show mainwindow
+.br
+Alt + e	Hide/show playlistwindow
+.br
+Alt + g	Hide/show Equalizer
+.br
+Alt + s	Skin selecting window
+.in -2
+
+Main window specific:
+
+.in +2
+.br
+Arrow key up	Volume up 2%
+.br
+Arrow key down	Volume down 2%
+.br
+Arrow key right	Skip 5 seconds forward in song
+.br
+Arrow key left	Skip 5 seconds back in song
+.in -2
+
+Playlist window specific:
+
+.in +2
+.br
+Arrow key up	Up one step in playlist
+.br
+Arrow key down	Down one step in playlist
+.br
+Delete	Remove selected songs from playlist
+.br
+Control + Delete	Keeps the selected tracks and removes the rest
+.br
+Q	Queue/Dequeue the tracks selected
+.br
+Shift + Q	Clear the queue list
+.br
+Alt + Q	Queue manager
+.br
+Page Up	Move one page up
+.br
+Page Down	Move one page down
+.br
+Home	First page in playlist
+.br
+End	Last page in playlist
+.br
+Enter	Play selected song
+.br
+Insert	Add file dialog
+.br
+Shift + Insert	Add directory dialog
+.br
+Alt + Insert	Add url dialog
+.in -2 
+
+Equalizer shade mode specific:
+
+.in +2
+.br
+Arrow key up	Volume up 2%
+.br
+Arrow key down	Volume down 2%
+.br
+Arrow key right	Balance 4% to right
+.br
+Arrow key left	Balance 4% to left
+.in -2
+.SH FILES
+XMMS keeps its files where the XDG Base Directory Specification puts
+them: configuration under \fB$XDG_CONFIG_HOME\fP (\fI~/.config\fP when it
+is unset) and data under \fB$XDG_DATA_HOME\fP (\fI~/.local/share\fP).
+.TP \w'$XDG_CONFIG_HOME/xmms/xmms.m3uXX'u
+$XDG_CONFIG_HOME/xmms/config
+Users xmms configuration, the plugins' included.
+.TP
+$XDG_CONFIG_HOME/xmms/xmms.m3u
+Default playlist usually loaded on startup.
+.TP
+$XDG_CONFIG_HOME/xmms/gtkrc
+Users set of xmms-specific GTK config settings. Options such as widget
+color and fonts sizes can be set here.
+.TP
+$XDG_CONFIG_HOME/xmms/menurc
+Users set of keybindings.
+.TP
+$XDG_CONFIG_HOME/xmms/eq.preset, eq.auto_preset
+Equalizer presets, and the presets loaded automatically per song.
+.TP
+$XDG_DATA_HOME/xmms/Skins, @datadir@/xmms/Skins
+Default locations where XMMS should look for skinfiles.
+.TP
+$XDG_DATA_HOME/xmms/Plugins
+Location of user installed plugins.
+.SH ENVIRONMENT
+.TP 12
+.B SKINSDIR
+Colon separated list of paths where XMMS should look for skinfiles.

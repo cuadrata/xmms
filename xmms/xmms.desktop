@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=XMMS
+Comment=X Multimedia System
+Comment[az]=X Multimedya Sistemi
+Comment[ca]=Sistema Multimèdia per a X
+Comment[cs]=Multimediální přehrávač
+Comment[es]=Sistema Multimedia para X
+Comment[gl]=Sistema Multimedia para X
+Comment[hr]=X Multimedijski Sustav
+Comment[nn]=X Multimedia-system
+Comment[pt_BR]=X Multimedia System
+Comment[ro]=X MultiMedia Sistem
+Comment[th]=ระบบมัลติมีเดียบน X
+Comment[tr]=X Multimedya Sistem
+Comment[zh_TW]=X 多媒體系統
+Exec=xmms %U
+Icon=xmms
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+MimeType=audio/mpeg;audio/x-mpeg;audio/mp3;audio/x-mp3;audio/ogg;audio/x-vorbis+ogg;audio/x-opus+ogg;audio/flac;audio/x-flac;audio/mp4;audio/x-m4a;audio/x-wav;audio/wav;audio/x-mod;audio/x-s3m;audio/x-xm;audio/x-it;audio/x-scpls;audio/x-mpegurl;audio/mpegurl;

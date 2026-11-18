@@ -1,0 +1,33 @@
+FLAC input plugin
+=================
+
+Imported from FLAC 1.4.1 (https://github.com/xiph/flac, tag 1.4.1), the
+last FLAC release that shipped its XMMS plugin; FLAC 1.4.2 removed it.
+Files were copied verbatim from these locations in the FLAC tree:
+
+  src/plugin_xmms/*                 ->  ./
+  src/plugin_common/*               ->  plugin_common/
+  include/share/*.h                 ->  share/
+  include/share/grabbag/*.h         ->  share/grabbag/
+  src/share/grabbag/alloc.c         ->  share/grabbag/
+  src/share/grabbag/replaygain.c    ->  share/grabbag/
+  src/share/replaygain_synthesis/*  ->  share/replaygain_synthesis/
+
+Changes for the XMMS tree:
+
+  * XMMS headers are included the way in-tree plugins do
+    ("libxmms/...", "xmms/plugin.h"); <xmms/util.h> would otherwise
+    pick up the XMMS program's internal util.h.
+  * plugin.c uses snprintf() instead of FLAC's internal
+    flac_snprintf().
+  * http.c is gone: streams are fetched by the HTTP code the input
+    plugins share, in Input/common, which also keeps the streaming
+    settings. The Icecast 1 UDP title channel went with it.
+  * The plugin reports its own version (1.4.1), not XMMS's VERSION.
+  * share/grabbag/replaygain.c keeps only the functions the plugin
+    uses (loading ReplayGain tags, computing the scale factor), so
+    FLAC's replaygain_analysis library is not needed; the grabbag
+    headers the plugin does not use are removed. The plugin is
+licensed under the GNU GPL version 2 or later (COPYING.GPL); some
+helpers under share/ are under Xiph.Org's BSD-like licence
+(COPYING.Xiph), as stated in each file. It links against libFLAC.

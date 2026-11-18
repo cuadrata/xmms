@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XMMS's small icon, the headphones, drawn for 16 pixels. The sizes of 22 and 24 pixels are
+     this drawing, scaled; at 16 pixels the icon is xmms_mini.xpm itself, and from 32 pixels up
+     it is xmms.svg.
+     It is drawn after xmms_mini.xpm of XMMS 1.2.11: the button, its edges and the headphones are
+     where they are there.
+     Copyright (C) 2026 The CGTK authors. Under XMMS's licence, the GNU General Public License,
+     version 2 or later: see COPYING. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+<defs>
+<linearGradient id="top" gradientUnits="userSpaceOnUse" x1="1" y1="0" x2="14" y2="0">
+<stop offset="0" stop-color="#dadada"/>
+<stop offset="0.1" stop-color="#b8b8b8"/>
+<stop offset="0.22" stop-color="#8c8c8c"/>
+<stop offset="0.82" stop-color="#8c8c8c"/>
+<stop offset="0.9" stop-color="#646466"/>
+<stop offset="1" stop-color="#1c1b19"/>
+</linearGradient>
+<linearGradient id="left" gradientUnits="userSpaceOnUse" x1="0" y1="2" x2="0" y2="14">
+<stop offset="0" stop-color="#b1b1b1"/>
+<stop offset="0.12" stop-color="#4e4e4e"/>
+<stop offset="0.25" stop-color="#2a2a2a"/>
+<stop offset="1" stop-color="#2a2a2a"/>
+</linearGradient>
+<linearGradient id="field" gradientUnits="userSpaceOnUse" x1="0" y1="3" x2="0" y2="13">
+<stop offset="0" stop-color="#2b261e"/>
+<stop offset="0.3" stop-color="#42392c"/>
+<stop offset="0.7" stop-color="#42392c"/>
+<stop offset="1" stop-color="#342e24"/>
+</linearGradient>
+<linearGradient id="right" gradientUnits="userSpaceOnUse" x1="0" y1="3" x2="0" y2="13">
+<stop offset="0" stop-color="#c0bdb8"/>
+<stop offset="0.7" stop-color="#c0bdb8"/>
+<stop offset="1" stop-color="#9c9a93"/>
+</linearGradient>
+</defs>
+<!-- the ground it stands on, and the button: lit along the top and the left -->
+<rect width="16" height="16" fill="#5b5b5b"/>
+<rect x="1" y="1" width="14" height="14" fill="#0c0b0a"/>
+<rect x="1" y="1" width="13" height="1" fill="url(#top)"/>
+<rect x="1" y="2" width="1" height="12" fill="url(#left)"/>
+
+<!-- the sunk field, with its far edges lit -->
+<rect x="3" y="3" width="10" height="10" fill="url(#field)"/>
+<rect x="13" y="3" width="1" height="10" fill="url(#right)"/>
+<rect x="3" y="13" width="10" height="1" fill="#686560"/>
+<rect x="13" y="13" width="1" height="1" fill="#939593"/>
+
+<!-- the headphones: the band and its arms, then the two cups -->
+<path d="M5.5,12 V6.6 C5.5,5.1 6.7,4.5 8,4.5 C9.3,4.5 10.5,5.1 10.5,6.6 V12" fill="none" stroke="#d9d7d4" stroke-width="1" stroke-linejoin="round"/>
+<path d="M5,8 C3.8,8.3 3,9 3,9.5 C3,10 3.8,10.7 5,11 Z M11,8 C12.2,8.3 13,9 13,9.5 C13,10 12.2,10.7 11,11 Z" fill="#c2bfba"/>
+</svg>

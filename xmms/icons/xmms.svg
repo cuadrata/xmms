@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XMMS's icon, drawn for 48 pixels. Every size of it from 32 pixels up is this drawing, scaled;
+     below that the icon is the headphones, xmms-small.svg.
+     It is drawn after the 48 pixel icon wmxmms had (wmxmms/wmxmms.xpm of XMMS 1.2.11), which was too
+     small to be made larger: the plate, the lamp and the letters are where they were there.
+     Copyright (C) 2026 The CGTK authors. Under XMMS's licence, the GNU General Public License,
+     version 2 or later: see COPYING. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<defs>
+<linearGradient id="steel" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48">
+<stop offset="0" stop-color="#688a9f"/>
+<stop offset="0.45" stop-color="#384a56"/>
+<stop offset="0.95" stop-color="#050708"/>
+<stop offset="1" stop-color="#040406"/>
+</linearGradient>
+<linearGradient id="lamp" gradientUnits="userSpaceOnUse" x1="0" y1="5" x2="0" y2="7">
+<stop offset="0" stop-color="#d00a0c"/>
+<stop offset="1" stop-color="#a00204"/>
+</linearGradient>
+</defs>
+<rect width="48" height="48" fill="url(#steel)"/>
+
+<!-- the lamp in its bezel -->
+<rect x="1" y="3" width="15" height="6" fill="#4a4e54"/>
+<path d="M1,9 H16 V3 H15 V8 H1 Z" fill="#a6a4a6"/>
+<rect x="2" y="4" width="13" height="4" fill="#3c4046"/>
+<rect x="3" y="5" width="11" height="2" fill="url(#lamp)"/>
+
+<!-- XMM: the light about each letter, then the letters. One path each, every part of it drawn
+     the same way round, so that where parts meet they are one shape. -->
+<path fill="none" stroke="#b4c6d2" stroke-opacity="0.4" stroke-width="1.5" stroke-linejoin="round" d="
+M3,17 H7.2 L13.4,28 H9.2 Z M11.9,17 H12.5 L3.9,28 H3.3 Z
+M2.2,17 h5.8 v0.45 h-5.8 Z M10.3,17 h3.7 v0.45 h-3.7 Z M1.8,27.55 h3.8 v0.45 h-3.8 Z M8.4,27.55 h6 v0.45 h-6 Z
+M15.6,17 h0.55 v11 h-0.55 Z M15.5,17 H19.6 L21.5,26.8 L21.05,28 Z M23.8,17 H24.3 L21.35,28 H20.8 Z M24,17 h4 v11 h-4 Z
+M14.4,17 h1.4 v0.45 h-1.4 Z M14.2,27.55 h3.4 v0.45 h-3.4 Z M23,27.55 h6 v0.45 h-6 Z M27.9,17 h0.7 v0.45 h-0.7 Z
+M32.4,17 h0.55 v11 h-0.55 Z M32.3,17 H36.4 L38.3,26.8 L37.85,28 Z M40.6,17 H41.1 L38.15,28 H37.6 Z M40.8,17 h4 v11 h-4 Z
+M31.2,17 h1.4 v0.45 h-1.4 Z M31,27.55 h3.4 v0.45 h-3.4 Z M39.8,27.55 h6 v0.45 h-6 Z M44.7,17 h0.7 v0.45 h-0.7 Z"/>
+<path fill="#05030a" d="
+M3,17 H7.2 L13.4,28 H9.2 Z M11.9,17 H12.5 L3.9,28 H3.3 Z
+M2.2,17 h5.8 v0.45 h-5.8 Z M10.3,17 h3.7 v0.45 h-3.7 Z M1.8,27.55 h3.8 v0.45 h-3.8 Z M8.4,27.55 h6 v0.45 h-6 Z
+M15.6,17 h0.55 v11 h-0.55 Z M15.5,17 H19.6 L21.5,26.8 L21.05,28 Z M23.8,17 H24.3 L21.35,28 H20.8 Z M24,17 h4 v11 h-4 Z
+M14.4,17 h1.4 v0.45 h-1.4 Z M14.2,27.55 h3.4 v0.45 h-3.4 Z M23,27.55 h6 v0.45 h-6 Z M27.9,17 h0.7 v0.45 h-0.7 Z
+M32.4,17 h0.55 v11 h-0.55 Z M32.3,17 H36.4 L38.3,26.8 L37.85,28 Z M40.6,17 H41.1 L38.15,28 H37.6 Z M40.8,17 h4 v11 h-4 Z
+M31.2,17 h1.4 v0.45 h-1.4 Z M31,27.55 h3.4 v0.45 h-3.4 Z M39.8,27.55 h6 v0.45 h-6 Z M44.7,17 h0.7 v0.45 h-0.7 Z"/>
+
+<!-- System, in a hand: its shadow, then the pen -->
+<g fill="none" stroke="#000000" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(0.3 0.4)">
+<path d="M4.4,30.4 C3.2,29.9 2.0,30.9 2.4,32.1 C2.8,33.3 5.4,33.6 5.7,35.0 C5.9,36.3 4.2,37.0 2.9,36.3"/>
+<path d="M7.7,33.7 C7.8,34.8 8.2,35.6 9.1,35.6 C10.0,35.6 10.5,34.7 10.6,33.7 C10.7,36.5 10.5,39.5 9.6,41.5 C9.2,42.5 8.8,43.4 8.4,44.0"/>
+<path d="M12.9,30.2 C12.2,30.6 12.1,31.8 12.6,32.6 C13.2,33.5 14.6,34.2 14.6,35.3 C14.6,36.4 13.2,36.8 12.1,36.4"/>
+<path d="M19.6,29.7 C19.4,31.8 18.9,33.9 18.5,36.0"/>
+<path d="M16.9,33.7 C19.5,33.3 22.5,33.5 25.4,33.3 C26.1,33.1 26.5,32.8 26.4,32.3 C26.5,31.3 24.9,30.9 23.9,31.6 C22.8,32.4 22.4,34.4 23.0,35.6 C23.6,36.8 25.6,36.9 26.8,36.1 C27.5,35.6 28.0,35.2 28.5,34.8 C30.0,33.6 31.4,32.0 32.6,31.2 C33.4,32.6 33.5,34.6 33.6,36.4"/>
+<path d="M33.6,34.6 C34.8,33.3 36.1,32.0 37.3,31.3 C37.6,32.6 37.6,34.2 37.9,35.4 C39.2,34.2 40.6,32.9 41.8,32.2 C42.2,33.2 42.2,34.4 42.5,35.4 C43.5,35.7 44.7,35.7 45.7,35.5"/>
+</g>
+<g fill="none" stroke="#eeeef2" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4.4,30.4 C3.2,29.9 2.0,30.9 2.4,32.1 C2.8,33.3 5.4,33.6 5.7,35.0 C5.9,36.3 4.2,37.0 2.9,36.3"/>
+<path d="M7.7,33.7 C7.8,34.8 8.2,35.6 9.1,35.6 C10.0,35.6 10.5,34.7 10.6,33.7 C10.7,36.5 10.5,39.5 9.6,41.5 C9.2,42.5 8.8,43.4 8.4,44.0"/>
+<path d="M12.9,30.2 C12.2,30.6 12.1,31.8 12.6,32.6 C13.2,33.5 14.6,34.2 14.6,35.3 C14.6,36.4 13.2,36.8 12.1,36.4"/>
+<path d="M19.6,29.7 C19.4,31.8 18.9,33.9 18.5,36.0"/>
+<path d="M16.9,33.7 C19.5,33.3 22.5,33.5 25.4,33.3 C26.1,33.1 26.5,32.8 26.4,32.3 C26.5,31.3 24.9,30.9 23.9,31.6 C22.8,32.4 22.4,34.4 23.0,35.6 C23.6,36.8 25.6,36.9 26.8,36.1 C27.5,35.6 28.0,35.2 28.5,34.8 C30.0,33.6 31.4,32.0 32.6,31.2 C33.4,32.6 33.5,34.6 33.6,36.4"/>
+<path d="M33.6,34.6 C34.8,33.3 36.1,32.0 37.3,31.3 C37.6,32.6 37.6,34.2 37.9,35.4 C39.2,34.2 40.6,32.9 41.8,32.2 C42.2,33.2 42.2,34.4 42.5,35.4 C43.5,35.7 44.7,35.7 45.7,35.5"/>
+</g>
+</svg>

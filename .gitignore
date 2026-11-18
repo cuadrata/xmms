@@ -1,0 +1,45 @@
+# Made by autoreconf -vif
+/ABOUT-NLS
+/INSTALL
+/aclocal.m4
+/autom4te.cache/
+/build-aux/
+/config.h.in
+/configure
+*~
+Makefile.in
+/m4/*
+/po/Makefile.in.in
+/po/Makevars.template
+/po/Rules-quot
+/po/*.sed
+/po/*.header
+/po/*.sin
+
+# Made by configure
+Makefile
+/config.h
+/config.log
+/config.status
+/libtool
+stamp-h[0-9]*
+/xmms-config
+/xmms.pc
+/xmms/i18n.h
+/po/POTFILES
+
+# Made by make
+.deps/
+.dirstamp
+.libs/
+*.o
+*.lo
+*.la
+*.a
+*.so
+/xmms.1
+/po/xmms.pot
+/po/*.gmo
+/po/stamp-po
+/xmms/xmms
+/xmms-*.tar.*

@@ -1,0 +1,20 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@/@PACKAGE@
+
+plugin_dir=@plugindir@
+input_plugin_dir=${plugin_dir}/@INPUT_PLUGIN_DIR@
+output_plugin_dir=${plugin_dir}/@OUTPUT_PLUGIN_DIR@
+effect_plugin_dir=${plugin_dir}/@EFFECT_PLUGIN_DIR@
+general_plugin_dir=${plugin_dir}/@GENERAL_PLUGIN_DIR@
+visualization_plugin_dir=${plugin_dir}/@VISUALIZATION_PLUGIN_DIR@
+
+Name: XMMS
+Description: The X MultiMedia System: headers and library for its plugins
+Version: @VERSION@
+Requires: gtk+-1.4 >= 1.4.0 gthread-1.4
+Libs: -L${libdir} -lxmms
+Cflags: -I${includedir} -I${includedir}/xmms
